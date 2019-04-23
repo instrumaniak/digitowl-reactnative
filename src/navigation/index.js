@@ -1,12 +1,25 @@
+import React from 'react'
+
 import {
   createStackNavigator,
+  createSwitchNavigator,
+  createBottomTabNavigator,
   createAppContainer
 } from 'react-navigation'
 
+import { Icon } from 'native-base'
+
 import Welcome from '../screens/Welcome'
 import Login from '../screens/Login'
+//import Home from '../screens/Home'
+import Dashboard from '../screens/Dashboard'
+import Timeline from '../screens/Timeline'
+import Activity from '../screens/Activity'
+import More from '../screens/More'
 
-const AppNavigator = createStackNavigator({
+import { colors } from '../config'
+
+const AuthStack = createStackNavigator({
   Welcome: {
     screen: Welcome,
     navigationOptions: {
@@ -18,6 +31,81 @@ const AppNavigator = createStackNavigator({
   }
 })
 
-const AppContainer = createAppContainer(AppNavigator)
+const bottomTabStack = createBottomTabNavigator({
+  Dashboard: {
+    screen: Dashboard,
+    navigationOptions: () => ({
+      tabBarIcon({ tintColor }){
+        return <Icon name='ios-stats' style={{color: tintColor}}/>
+      }
+    })
+  },
+  Timeline: {
+    screen: Timeline,
+    navigationOptions: () => ({
+      tabBarIcon({ tintColor }){
+        return <Icon name='md-list-box' style={{color: tintColor}}/>
+      }
+    })
+  },
+  Activity: {
+    screen: Activity,
+    navigationOptions: () => ({
+      tabBarIcon({ tintColor }){
+        return <Icon name='ios-notifications' style={{color: tintColor}}/>
+      }
+    })
+  },
+  More: {
+    screen: More,
+    navigationOptions: () => ({
+      tabBarIcon({ tintColor }){
+        return <Icon name='ios-more' style={{color: tintColor}}/>
+      }
+    })
+  }
+}, {
+  tabBarOptions: {
+    activeTintColor: colors.green,
+    style: {
+      //backgroundColor: '#eee',
+      borderTopWidth: 1,
+      borderTopColor: '#eee',
+      paddingTop: 5,
+      paddingBottom: 2
+    }
+  },
+  navigationOptions: ({ navigation }) => {
+    const { routeName } = navigation.state.routes[navigation.state.index]
+
+    return {
+      headerTitle: routeName,
+      headerTintColor: '#fff',
+      headerTitleStyle: {
+        fontWeight: 'normal'
+      }
+    }
+  }
+})
+
+const AppStack = createStackNavigator({
+  TabContainer: bottomTabStack
+}, {
+  defaultNavigationOptions: {
+    headerStyle: {
+      backgroundColor: colors.green
+    }
+  }
+})
+
+const AppContainer = createAppContainer(createSwitchNavigator(
+  {
+    Auth: AuthStack,
+    App: AppStack
+  },
+  {
+    initialRouteName: 'Auth'
+  }
+))
 
 export default AppContainer

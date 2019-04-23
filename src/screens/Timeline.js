@@ -4,10 +4,10 @@ import {
   Text
 } from 'react-native'
 
-const Home = () => (
+const Timeline = () => (
   <View>
-    <Text>Home screen..container for Dashboard</Text>
+    <Text>Timeline screen.</Text>
   </View>
 )
 
-export default Home
+export default Timeline

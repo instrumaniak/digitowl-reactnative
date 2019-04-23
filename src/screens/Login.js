@@ -45,7 +45,7 @@ const Login = ({ navigation }) => {
               <Input placeholder='Password' secureTextEntry/>
             </Item>
           </Form>
-          <Button block style={{backgroundColor: colors.greenDark}}>
+          <Button block style={{backgroundColor: colors.greenDark}} onPress={() => navigation.navigate('Dashboard')}>
             <Text>Continue</Text>
           </Button>
         </View>

@@ -4,10 +4,10 @@ import {
   Text
 } from 'react-native'
 
-const Home = () => (
+const More = () => (
   <View>
-    <Text>Home screen..container for Dashboard</Text>
+    <Text>More screen.</Text>
   </View>
 )
 
-export default Home
+export default More
