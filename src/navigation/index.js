@@ -1,3 +1,7 @@
+/**
+ *   Navigation
+ */
+
 import React from 'react'
 
 import {
@@ -19,6 +23,7 @@ import More from '../screens/More'
 
 import { colors } from '../config'
 
+// Initial Authentication screens
 const AuthStack = createStackNavigator({
   Welcome: {
     screen: Welcome,
@@ -31,11 +36,12 @@ const AuthStack = createStackNavigator({
   }
 })
 
+// Main screens with bottom tabs
 const bottomTabStack = createBottomTabNavigator({
   Dashboard: {
     screen: Dashboard,
     navigationOptions: () => ({
-      tabBarIcon({ tintColor }){
+      tabBarIcon({ tintColor }){ //eslint-disable-line react/prop-types
         return <Icon name='ios-stats' style={{color: tintColor}}/>
       }
     })
@@ -43,7 +49,7 @@ const bottomTabStack = createBottomTabNavigator({
   Timeline: {
     screen: Timeline,
     navigationOptions: () => ({
-      tabBarIcon({ tintColor }){
+      tabBarIcon({ tintColor }){ //eslint-disable-line react/prop-types
         return <Icon name='md-list-box' style={{color: tintColor}}/>
       }
     })
@@ -51,7 +57,7 @@ const bottomTabStack = createBottomTabNavigator({
   Activity: {
     screen: Activity,
     navigationOptions: () => ({
-      tabBarIcon({ tintColor }){
+      tabBarIcon({ tintColor }){ //eslint-disable-line react/prop-types
         return <Icon name='ios-notifications' style={{color: tintColor}}/>
       }
     })
@@ -59,7 +65,7 @@ const bottomTabStack = createBottomTabNavigator({
   More: {
     screen: More,
     navigationOptions: () => ({
-      tabBarIcon({ tintColor }){
+      tabBarIcon({ tintColor }){ //eslint-disable-line react/prop-types
         return <Icon name='ios-more' style={{color: tintColor}}/>
       }
     })
@@ -83,7 +89,8 @@ const bottomTabStack = createBottomTabNavigator({
       headerTintColor: '#fff',
       headerTitleStyle: {
         fontWeight: 'normal'
-      }
+      },
+      header: null
     }
   }
 })

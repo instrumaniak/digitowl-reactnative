@@ -1,3 +1,7 @@
+/**
+ *   Configuration settings / common shared data
+ */
+
 export const colors = {
   blue: '#4682B4',
 

@@ -1,13 +1,25 @@
 import React from 'react'
+// import {
+//   View,
+//   Text
+// } from 'react-native'
+
 import {
-  View,
-  Text
-} from 'react-native'
+  Container,
+  Header,
+  Body,
+  Title
+} from 'native-base'
+
+import { colors } from '../config'
 
 const Activity = () => (
-  <View>
-    <Text>Activity screen.</Text>
-  </View>
+  <Container style={{ backgroundColor: colors.whiteSmoke }}>
+    <Header hasTabs style={{ paddingLeft: 20, backgroundColor: colors.green }} androidStatusBarColor={colors.greenDark}>
+      <Body><Title>Activity</Title></Body>
+    </Header>
+
+  </Container>
 )
 
 export default Activity

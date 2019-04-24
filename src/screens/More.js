@@ -1,13 +1,32 @@
 import React from 'react'
+// import {
+//   View,
+//   Text
+// } from 'react-native'
+
 import {
-  View,
-  Text
-} from 'react-native'
+  Container,
+  Header,
+  Body,
+  Right,
+  Title,
+  Icon,
+  Button
+} from 'native-base'
+
+import { colors } from '../config'
 
 const More = () => (
-  <View>
-    <Text>More screen.</Text>
-  </View>
+  <Container style={{ backgroundColor: colors.whiteSmoke }}>
+    <Header hasTabs style={{ paddingLeft: 20, backgroundColor: colors.green }} androidStatusBarColor={colors.greenDark}>
+      <Body><Title>More</Title></Body>
+      <Right>
+        <Button transparent>
+          <Icon name='ios-log-out' />
+        </Button>
+      </Right>
+    </Header>
+  </Container>
 )
 
 export default More
