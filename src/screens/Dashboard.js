@@ -1,8 +1,8 @@
 import React from 'react'
-// import {
-//   View,
-//   Text
-// } from 'react-native'
+import {
+  View,
+  Text
+} from 'react-native'
 
 import {
   Container,
@@ -17,6 +17,7 @@ import {
   ScrollableTab
 } from 'native-base'
 
+import Dash from '../components/Dashboard'
 import { colors } from '../config'
 
 const Dashboard = () => (
@@ -42,7 +43,9 @@ const Dashboard = () => (
         tabStyle={{ backgroundColor: colors.green}}
         activeTabStyle={{ backgroundColor: colors.green}}
         textStyle={{ color: colors.whiteSmoke }}
-      />
+      >
+        <Dash />
+      </Tab>
       <Tab
         heading='May 2019'
         tabStyle={{ backgroundColor: colors.green}}

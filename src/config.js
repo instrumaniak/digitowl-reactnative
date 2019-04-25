@@ -15,8 +15,15 @@ export const colors = {
   yellow: '#FDB833',
 
   white: '#FFFFFF',
+  white2: '#FDFDFF',
   whiteSmoke: '#F5F3F5',
-  grey: '#BBC8CA',
+
+  grey: '#BBC8CA', // silver sand
+  grey1: '#5B6267', // black coral
+  grey2: '#4B5358', // davy's grey
+  grey3: '#393D3F', // black olide
+
+  charcoal: '#383F51',
   black: '#101419'
 
 }
