@@ -1,24 +1,25 @@
-import React from 'react'
+/**
+ *   Dashboard section: Overview
+ */
 
-import {
-  View,
-  ScrollView,
-  StyleSheet
-} from 'react-native'
+import React, { PureComponent } from 'react'
+import { View, StyleSheet } from 'react-native'
 
 import {
   Card,
   CardItem,
-  Text,
-  Button
+  Text
 } from 'native-base'
 
+import {
+  LineChart,
+  XAxis,
+  YAxis,
+  Grid
+} from 'react-native-svg-charts'
 
-import { LineChart, Grid, XAxis, YAxis } from 'react-native-svg-charts'
 import { Circle } from 'react-native-svg'
-import { colors } from '../config'
-import CircleButton from './CircleButton'
-
+import { colors } from '../../config'
 
 const data = [ 50, 10, 40, 95, -4, -24, 85, 91, 35, 53, -53, 24, 50, -20, -80 ]
 
@@ -36,28 +37,9 @@ const Decorator = ({ x, y, data }) => {
   ))
 }
 
-const Dashboard = () => (
-  <View style={styles.container}>
-    <ScrollView>
-
-      {/* Wallets & Account */}
-      <Card style={{ elevation: 2 }}>
-        <CardItem>
-          <Text style={styles.cardHeaderText}>Wallets & Accounts</Text>
-        </CardItem>
-        <CardItem>
-          <View style={styles.btnContainer}>
-            <Button style={styles.btnLight} light>
-              <Text style={styles.btnText} uppercase={false}>Add Cash Wallet </Text>
-            </Button>
-            <Button style={styles.btnLight} light>
-              <Text style={styles.btnText} uppercase={false}>Connect Bank </Text>
-            </Button>
-          </View>
-        </CardItem>
-      </Card>
-
-      {/* Overview */}
+class CardOverview extends PureComponent {
+  render() {
+    return (
       <Card style={{ elevation: 2 }}>
         <CardItem>
           <Text style={styles.cardHeaderText}>Overview</Text>
@@ -92,7 +74,7 @@ const Dashboard = () => (
                 contentInset={{ top: 10, bottom: 10 }}
               >
                 <Decorator />
-                <Grid svg={{strokeOpacity: 1, stroke: colors.grey}}/>
+                <Grid svg={{strokeOpacity: 0.5, stroke: colors.grey}}/>
               </LineChart>
               <XAxis
                 style={{ marginHorizontal: -10, height: 30}}
@@ -105,16 +87,11 @@ const Dashboard = () => (
           </View>
         </CardItem>
       </Card>
-    </ScrollView>
-    <CircleButton />
-  </View>
-)
+    )
+  }
+}
 
 const styles = StyleSheet.create({
-  container: {
-    paddingHorizontal: 5,
-    flex: 1
-  },
   cardHeaderText: {
     color: colors.grey1
   },
@@ -143,12 +120,13 @@ const styles = StyleSheet.create({
   obtnHeading: {
     color: colors.grey1,
     marginBottom: 5,
-    fontSize: 18
+    fontSize: 15
   },
   obtnValue: {
-    color: colors.grey2,
-    fontSize: 25
+    color: colors.grey1,
+    fontSize: 20,
+    fontWeight: 'bold'
   }
 })
 
-export default Dashboard
+export default CardOverview
