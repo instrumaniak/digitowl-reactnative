@@ -18,6 +18,7 @@ import { colors } from '../../config'
 import CircleButton from '../CircleButton'
 import CardOverview from './CardOverview'
 import CardCategories from './CardCategories'
+import CardHashtags from './CardHashtags'
 
 const Dashboard = () => (
   <View style={styles.container}>
@@ -59,6 +60,25 @@ const Dashboard = () => (
 
       <CardCategories />
 
+      <Card style={{ elevation: 2 }}>
+        <CardItem>
+          <Text style={styles.cardHeaderText}>Transfers</Text>
+        </CardItem>
+        <CardItem>
+          <View style={styles.btnContainer}>
+            <View style={styles.overviewButton}>
+              <Text style={styles.obtnHeading}>Outgoing</Text>
+              <Text style={styles.obtnValue}>- 125 USD</Text>
+            </View>
+            <View style={styles.overviewButton}>
+              <Text style={styles.obtnHeading}>Incoming</Text>
+              <Text style={styles.obtnValue}>+1 200 USD</Text>
+            </View>
+          </View>
+        </CardItem>
+      </Card>
+
+      <CardHashtags />
     </ScrollView>
     <CircleButton />
   </View>
@@ -70,6 +90,7 @@ const styles = StyleSheet.create({
     flex: 1
   },
   cardHeaderText: {
+    //fontSize: 20,
     color: colors.grey1
   },
   btnContainer: {

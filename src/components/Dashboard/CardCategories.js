@@ -14,6 +14,7 @@ import {
 } from 'native-base'
 
 import { colors } from '../../config'
+import CategoryItem from './CategoryItem'
 
 const data2 = [ 50, 53, 24, 5, 20, 80 ]
 
@@ -77,6 +78,8 @@ class CardCategories extends PureComponent {
             </View>
           </View>
         </CardItem>
+
+      {/* Chart */}
         <CardItem>
           <PieChart
             style={{ flex:1, height: 250 }}
@@ -87,6 +90,60 @@ class CardCategories extends PureComponent {
           >
             <PieLabels />
           </PieChart>
+        </CardItem>
+
+      {/* Category Item list */}
+        <CardItem>
+          <CategoryItem
+            iconText="$"
+            title="Food and Drink"
+            description="26 transations"
+            value="-1 804.90 USD"
+          />
+        </CardItem>
+        <CardItem>
+          <CategoryItem
+            iconText="$"
+            title="Travel"
+            description="17 transactions"
+            value="-694.20 USD"
+          />
+        </CardItem>
+        <CardItem>
+          <CategoryItem
+            iconText="$"
+            title="Rent"
+            description="1 transactions"
+            value="-555.40 USD"
+          />
+        </CardItem>
+        <CardItem>
+          <CategoryItem
+            iconText="$"
+            title="Entertainment"
+            description="5 transations"
+            value="-462.80 USD"
+          />
+        </CardItem>
+        <CardItem>
+          <CategoryItem
+            iconText="$"
+            title="Energy"
+            description="6 transactions"
+            value="-450.50 USD"
+          />
+        </CardItem>
+
+        <CardItem>
+          <View style={{
+            flex: 1,
+            alignItems: 'center'
+          }}>
+            <Text style={{
+              color: colors.grey1,
+              textDecorationLine: 'underline'
+            }}>All Categories (7)</Text>
+          </View>
         </CardItem>
       </Card>
     )
