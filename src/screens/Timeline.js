@@ -18,8 +18,9 @@ import {
 } from 'native-base'
 
 import { colors } from '../config'
+import Timeline from '../components/Timeline'
 
-const Timeline = () => (
+const TimelineScreen = () => (
   <Container style={{ backgroundColor: colors.whiteSmoke }}>
     <Header hasTabs style={{ paddingLeft: 20, backgroundColor: colors.green }} androidStatusBarColor={colors.greenDark}>
       <Body><Title>Timeline</Title></Body>
@@ -42,7 +43,9 @@ const Timeline = () => (
         tabStyle={{ backgroundColor: colors.green}}
         activeTabStyle={{ backgroundColor: colors.green}}
         textStyle={{ color: colors.whiteSmoke }}
-      />
+      >
+        <Timeline />
+      </Tab>
       <Tab
         heading='May 2019'
         tabStyle={{ backgroundColor: colors.green}}
@@ -60,4 +63,4 @@ const Timeline = () => (
   </Container>
 )
 
-export default Timeline
+export default TimelineScreen
