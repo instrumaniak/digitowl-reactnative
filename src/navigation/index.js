@@ -23,6 +23,10 @@ import More from '../screens/More'
 
 import { colors } from '../config'
 
+// For performance
+import { useScreens } from 'react-native-screens'
+useScreens()
+
 // Initial Authentication screens
 const AuthStack = createStackNavigator({
   Welcome: {
