@@ -14,9 +14,10 @@ import {
   Button
 } from 'native-base'
 
+import More from '../components/More'
 import { colors } from '../config'
 
-const More = () => (
+const MoreScreen = () => (
   <Container style={{ backgroundColor: colors.whiteSmoke }}>
     <Header hasTabs style={{ paddingLeft: 20, backgroundColor: colors.green }} androidStatusBarColor={colors.greenDark}>
       <Body><Title>More</Title></Body>
@@ -26,7 +27,8 @@ const More = () => (
         </Button>
       </Right>
     </Header>
+    <More />
   </Container>
 )
 
-export default More
+export default MoreScreen
