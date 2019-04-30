@@ -19,6 +19,7 @@ import CircleButton from '../CircleButton'
 import CardOverview from './CardOverview'
 import CardCategories from './CardCategories'
 import CardHashtags from './CardHashtags'
+import CardPlaces from './CardPlaces'
 
 const Dashboard = () => (
   <View style={styles.container}>
@@ -79,6 +80,7 @@ const Dashboard = () => (
       </Card>
 
       <CardHashtags />
+      <CardPlaces />
     </ScrollView>
     <CircleButton />
   </View>
