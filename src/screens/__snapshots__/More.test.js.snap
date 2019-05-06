@@ -1,0 +1,1286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1334,
+      },
+      Object {
+        "backgroundColor": "#F5F3F5",
+      },
+    ]
+  }
+>
+  <View
+    onLayout={[Function]}
+  >
+    <View
+      androidStatusBarColor="#00a16b"
+      hasTabs={true}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#F8F8F8",
+            "borderBottomColor": "#a7a6ab",
+            "borderBottomWidth": null,
+            "elevation": 0,
+            "flexDirection": "row",
+            "height": 64,
+            "justifyContent": "center",
+            "left": 0,
+            "paddingLeft": 6,
+            "paddingRight": 10,
+            "paddingTop": 18,
+            "right": 0,
+            "shadowColor": null,
+            "shadowOffset": null,
+            "shadowOpacity": null,
+            "shadowRadius": null,
+            "top": 0,
+          },
+          Object {
+            "backgroundColor": "#00b175",
+            "paddingLeft": 20,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "center",
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 17,
+              "fontWeight": "700",
+              "marginLeft": undefined,
+              "paddingLeft": 4,
+              "paddingTop": 1,
+              "textAlign": "center",
+            }
+          }
+        >
+          More
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "alignSelf": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": null,
+              "backgroundColor": "transparent",
+              "borderBottomWidth": null,
+              "borderColor": null,
+              "borderLeftWidth": null,
+              "borderRadius": 50,
+              "borderRightWidth": null,
+              "borderTopWidth": null,
+              "borderWidth": undefined,
+              "elevation": 0,
+              "flexDirection": "row",
+              "height": 45,
+              "justifyContent": "space-between",
+              "marginRight": -9,
+              "opacity": 1,
+              "paddingBottom": 6,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+              "paddingTop": 6,
+              "shadowColor": null,
+              "shadowOffset": null,
+              "shadowOpacity": null,
+              "shadowRadius": null,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 30,
+                  },
+                  Object {
+                    "color": "#007aff",
+                    "fontSize": 31,
+                    "marginLeft": 2,
+                    "marginRight": 0,
+                    "marginTop": 0,
+                    "paddingTop": 2,
+                  },
+                ],
+                Object {
+                  "fontFamily": "Ionicons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "paddingHorizontal": 5,
+      }
+    }
+  >
+    <RCTScrollView>
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "borderBottomWidth": 0.5,
+              "borderColor": "#ccc",
+              "borderLeftWidth": 0.5,
+              "borderRadius": 2,
+              "borderRightWidth": 0.5,
+              "borderTopWidth": 0.5,
+              "elevation": 3,
+              "flexWrap": "nowrap",
+              "marginBottom": 5,
+              "marginLeft": 2,
+              "marginRight": 2,
+              "marginTop": 5,
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+              "shadowRadius": 1.5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              General
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#5B6267",
+                        "fontSize": 18,
+                      }
+                    }
+                  >
+                    John Doe
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#BBC8CA",
+                        "fontSize": 16,
+                      }
+                    }
+                  >
+                    user.email@host.net
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 12,
+                        },
+                        Array [
+                          Object {
+                            "color": "#000",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "color": "#000",
+                            "fontSize": 28,
+                            "width": 35,
+                          },
+                          Object {
+                            "color": "#5B6267",
+                          },
+                        ],
+                        Object {
+                          "fontFamily": "Ionicons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#5B6267",
+                        "fontSize": 18,
+                      }
+                    }
+                  >
+                    Upgrade Options
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 12,
+                        },
+                        Array [
+                          Object {
+                            "color": "#000",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "color": "#000",
+                            "fontSize": 28,
+                            "width": 35,
+                          },
+                          Object {
+                            "color": "#5B6267",
+                          },
+                        ],
+                        Object {
+                          "fontFamily": "Ionicons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#5B6267",
+                        "fontSize": 18,
+                      }
+                    }
+                  >
+                    Notifications
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 12,
+                        },
+                        Array [
+                          Object {
+                            "color": "#000",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "color": "#000",
+                            "fontSize": 28,
+                            "width": 35,
+                          },
+                          Object {
+                            "color": "#5B6267",
+                          },
+                        ],
+                        Object {
+                          "fontFamily": "Ionicons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "borderBottomWidth": 0.5,
+              "borderColor": "#ccc",
+              "borderLeftWidth": 0.5,
+              "borderRadius": 2,
+              "borderRightWidth": 0.5,
+              "borderTopWidth": 0.5,
+              "elevation": 3,
+              "flexWrap": "nowrap",
+              "marginBottom": 5,
+              "marginLeft": 2,
+              "marginRight": 2,
+              "marginTop": 5,
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+              "shadowRadius": 1.5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Wallet & Accounts
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#5B6267",
+                        "fontSize": 18,
+                      }
+                    }
+                  >
+                    Manual Wallets
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 12,
+                        },
+                        Array [
+                          Object {
+                            "color": "#000",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "color": "#000",
+                            "fontSize": 28,
+                            "width": 35,
+                          },
+                          Object {
+                            "color": "#5B6267",
+                          },
+                        ],
+                        Object {
+                          "fontFamily": "Ionicons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#5B6267",
+                        "fontSize": 18,
+                      }
+                    }
+                  >
+                    Bank accounts
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 12,
+                        },
+                        Array [
+                          Object {
+                            "color": "#000",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "color": "#000",
+                            "fontSize": 28,
+                            "width": 35,
+                          },
+                          Object {
+                            "color": "#5B6267",
+                          },
+                        ],
+                        Object {
+                          "fontFamily": "Ionicons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#5B6267",
+                        "fontSize": 18,
+                      }
+                    }
+                  >
+                    All Categories
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#BBC8CA",
+                        "fontSize": 16,
+                      }
+                    }
+                  >
+                    17 Expenses, 8 Income
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 12,
+                        },
+                        Array [
+                          Object {
+                            "color": "#000",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "color": "#000",
+                            "fontSize": 28,
+                            "width": 35,
+                          },
+                          Object {
+                            "color": "#5B6267",
+                          },
+                        ],
+                        Object {
+                          "fontFamily": "Ionicons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#5B6267",
+                        "fontSize": 18,
+                      }
+                    }
+                  >
+                    Main Currency
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#BBC8CA",
+                        "fontSize": 16,
+                      }
+                    }
+                  >
+                    United States Dollars(USD)
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 12,
+                        },
+                        Array [
+                          Object {
+                            "color": "#000",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "color": "#000",
+                            "fontSize": 28,
+                            "width": 35,
+                          },
+                          Object {
+                            "color": "#5B6267",
+                          },
+                        ],
+                        Object {
+                          "fontFamily": "Ionicons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "borderBottomWidth": 0.5,
+              "borderColor": "#ccc",
+              "borderLeftWidth": 0.5,
+              "borderRadius": 2,
+              "borderRightWidth": 0.5,
+              "borderTopWidth": 0.5,
+              "elevation": 3,
+              "flexWrap": "nowrap",
+              "marginBottom": 5,
+              "marginLeft": 2,
+              "marginRight": 2,
+              "marginTop": 5,
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+              "shadowRadius": 1.5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Other
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#5B6267",
+                        "fontSize": 18,
+                      }
+                    }
+                  >
+                    Advanced
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 12,
+                        },
+                        Array [
+                          Object {
+                            "color": "#000",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "color": "#000",
+                            "fontSize": 28,
+                            "width": 35,
+                          },
+                          Object {
+                            "color": "#5B6267",
+                          },
+                        ],
+                        Object {
+                          "fontFamily": "Ionicons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#5B6267",
+                        "fontSize": 18,
+                      }
+                    }
+                  >
+                    Support
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 12,
+                        },
+                        Array [
+                          Object {
+                            "color": "#000",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "color": "#000",
+                            "fontSize": 28,
+                            "width": 35,
+                          },
+                          Object {
+                            "color": "#5B6267",
+                          },
+                        ],
+                        Object {
+                          "fontFamily": "Ionicons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                <View>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#5B6267",
+                        "fontSize": 18,
+                      }
+                    }
+                  >
+                    Terms & Policies
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#BBC8CA",
+                        "fontSize": 16,
+                      }
+                    }
+                  >
+                    17 Expenses, 8 Income
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": undefined,
+                          "fontSize": 12,
+                        },
+                        Array [
+                          Object {
+                            "color": "#000",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "color": "#000",
+                            "fontSize": 28,
+                            "width": 35,
+                          },
+                          Object {
+                            "color": "#5B6267",
+                          },
+                        ],
+                        Object {
+                          "fontFamily": "Ionicons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 10,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "paddingHorizontal": 5,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "alignSelf": "stretch",
+                "backgroundColor": "#f4f4f4",
+                "borderBottomWidth": null,
+                "borderColor": "#007aff",
+                "borderLeftWidth": null,
+                "borderRadius": 5,
+                "borderRightWidth": null,
+                "borderTopWidth": null,
+                "borderWidth": undefined,
+                "elevation": 2,
+                "flexDirection": "row",
+                "height": 45,
+                "justifyContent": "center",
+                "opacity": 1,
+                "paddingBottom": 6,
+                "paddingTop": 6,
+                "shadowColor": undefined,
+                "shadowOffset": undefined,
+                "shadowOpacity": undefined,
+                "shadowRadius": undefined,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16.5,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingLeft": 16,
+                    "paddingRight": 16,
+                  },
+                  Object {
+                    "color": "#CC2936",
+                  },
+                ]
+              }
+              uppercase={false}
+            >
+              Log Out
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
