@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimelineCardItem Component Renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#BBC8CA",
+        "borderRadius": 25,
+        "height": 50,
+        "justifyContent": "center",
+        "width": 50,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 35,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingLeft": 15,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#5B6267",
+            "fontSize": 20,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#BBC8CA",
+            "fontSize": 16,
+          }
+        }
+      />
+    </View>
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#5B6267",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

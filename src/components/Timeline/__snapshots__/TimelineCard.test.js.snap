@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimelineCard component Renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "borderBottomWidth": 0.5,
+      "borderColor": "#ccc",
+      "borderLeftWidth": 0.5,
+      "borderRadius": 2,
+      "borderRightWidth": 0.5,
+      "borderTopWidth": 0.5,
+      "elevation": 3,
+      "flexWrap": "nowrap",
+      "marginBottom": 5,
+      "marginLeft": 2,
+      "marginRight": 2,
+      "marginTop": 5,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.1,
+      "shadowRadius": 1.5,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderRadius": 2,
+        "flexDirection": "row",
+        "paddingBottom": 10,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Sat, April 17 2019
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        +1 800 USD
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderRadius": 2,
+        "flexDirection": "row",
+        "paddingBottom": 10,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#BBC8CA",
+            "borderRadius": 25,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 50,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 35,
+            }
+          }
+        >
+          $
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingLeft": 15,
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "#5B6267",
+                "fontSize": 20,
+              }
+            }
+          >
+            Extra Income
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#BBC8CA",
+                "fontSize": 16,
+              }
+            }
+          >
+            Visa Platinum
+          </Text>
+        </View>
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "#5B6267",
+                "fontSize": 18,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            + 2000 USD
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderRadius": 2,
+        "flexDirection": "row",
+        "paddingBottom": 10,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#BBC8CA",
+            "borderRadius": 25,
+            "height": 50,
+            "justifyContent": "center",
+            "width": 50,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 35,
+            }
+          }
+        >
+          $
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingLeft": 15,
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "#5B6267",
+                "fontSize": 20,
+              }
+            }
+          >
+            Other
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#BBC8CA",
+                "fontSize": 16,
+              }
+            }
+          >
+            Master Card
+          </Text>
+        </View>
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "#5B6267",
+                "fontSize": 18,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            - 200 USD
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
