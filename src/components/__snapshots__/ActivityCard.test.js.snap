@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "borderRadius": 2,
+      "elevation": 2,
+      "flexDirection": "row",
+      "marginBottom": 5,
+      "padding": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 15,
+        "paddingLeft": 2,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+          "marginBottom": 10,
+        }
+      }
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum ante vitae tortor vulputate, at posuere ante lacinia.
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#BBC8CA",
+        }
+      }
+    >
+      3 min. ago, 1:45 PM
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Array [
+            Object {
+              "color": "#000",
+              "fontSize": 30,
+            },
+            Object {
+              "color": "#000",
+              "fontSize": 30,
+            },
+            Object {
+              "color": "#BBC8CA",
+            },
+          ],
+          Object {
+            "fontFamily": "Ionicons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
