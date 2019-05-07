@@ -6,14 +6,14 @@
 import React from 'react'
 import { View } from 'react-native'
 import { Icon } from 'native-base'
-import { colors } from '../config'
+import { colors, themeColors } from '../config'
 
 const CircleButton = () => (
   <View style={{
     width: 60,
     height: 60,
     borderRadius: 30,
-    backgroundColor: colors.green,
+    backgroundColor: themeColors.brandLighten,
     justifyContent: 'center',
     alignItems: 'center',
     elevation: 10,

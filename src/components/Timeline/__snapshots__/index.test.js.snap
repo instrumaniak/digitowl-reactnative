@@ -228,7 +228,7 @@ exports[`Timeline component Renders correctly 1`] = `
               style={
                 Object {
                   "alignItems": "center",
-                  "backgroundColor": "#BBC8CA",
+                  "backgroundColor": "#c3c6c7",
                   "borderRadius": 25,
                   "height": 50,
                   "justifyContent": "center",
@@ -271,7 +271,7 @@ exports[`Timeline component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#BBC8CA",
+                      "color": "#c3c6c7",
                       "fontSize": 16,
                     }
                   }
@@ -321,7 +321,7 @@ exports[`Timeline component Renders correctly 1`] = `
               style={
                 Object {
                   "alignItems": "center",
-                  "backgroundColor": "#BBC8CA",
+                  "backgroundColor": "#c3c6c7",
                   "borderRadius": 25,
                   "height": 50,
                   "justifyContent": "center",
@@ -364,7 +364,7 @@ exports[`Timeline component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#BBC8CA",
+                      "color": "#c3c6c7",
                       "fontSize": 16,
                     }
                   }
@@ -486,7 +486,7 @@ exports[`Timeline component Renders correctly 1`] = `
               style={
                 Object {
                   "alignItems": "center",
-                  "backgroundColor": "#BBC8CA",
+                  "backgroundColor": "#c3c6c7",
                   "borderRadius": 25,
                   "height": 50,
                   "justifyContent": "center",
@@ -529,7 +529,7 @@ exports[`Timeline component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#BBC8CA",
+                      "color": "#c3c6c7",
                       "fontSize": 16,
                     }
                   }
@@ -579,7 +579,7 @@ exports[`Timeline component Renders correctly 1`] = `
               style={
                 Object {
                   "alignItems": "center",
-                  "backgroundColor": "#BBC8CA",
+                  "backgroundColor": "#c3c6c7",
                   "borderRadius": 25,
                   "height": 50,
                   "justifyContent": "center",
@@ -622,7 +622,7 @@ exports[`Timeline component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#BBC8CA",
+                      "color": "#c3c6c7",
                       "fontSize": 16,
                     }
                   }
@@ -744,7 +744,7 @@ exports[`Timeline component Renders correctly 1`] = `
               style={
                 Object {
                   "alignItems": "center",
-                  "backgroundColor": "#BBC8CA",
+                  "backgroundColor": "#c3c6c7",
                   "borderRadius": 25,
                   "height": 50,
                   "justifyContent": "center",
@@ -787,7 +787,7 @@ exports[`Timeline component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#BBC8CA",
+                      "color": "#c3c6c7",
                       "fontSize": 16,
                     }
                   }
@@ -837,7 +837,7 @@ exports[`Timeline component Renders correctly 1`] = `
               style={
                 Object {
                   "alignItems": "center",
-                  "backgroundColor": "#BBC8CA",
+                  "backgroundColor": "#c3c6c7",
                   "borderRadius": 25,
                   "height": 50,
                   "justifyContent": "center",
@@ -880,7 +880,7 @@ exports[`Timeline component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#BBC8CA",
+                      "color": "#c3c6c7",
                       "fontSize": 16,
                     }
                   }
@@ -1002,7 +1002,7 @@ exports[`Timeline component Renders correctly 1`] = `
               style={
                 Object {
                   "alignItems": "center",
-                  "backgroundColor": "#BBC8CA",
+                  "backgroundColor": "#c3c6c7",
                   "borderRadius": 25,
                   "height": 50,
                   "justifyContent": "center",
@@ -1045,7 +1045,7 @@ exports[`Timeline component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#BBC8CA",
+                      "color": "#c3c6c7",
                       "fontSize": 16,
                     }
                   }
@@ -1095,7 +1095,7 @@ exports[`Timeline component Renders correctly 1`] = `
               style={
                 Object {
                   "alignItems": "center",
-                  "backgroundColor": "#BBC8CA",
+                  "backgroundColor": "#c3c6c7",
                   "borderRadius": 25,
                   "height": 50,
                   "justifyContent": "center",
@@ -1138,7 +1138,7 @@ exports[`Timeline component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#BBC8CA",
+                      "color": "#c3c6c7",
                       "fontSize": 16,
                     }
                   }
@@ -1260,7 +1260,7 @@ exports[`Timeline component Renders correctly 1`] = `
               style={
                 Object {
                   "alignItems": "center",
-                  "backgroundColor": "#BBC8CA",
+                  "backgroundColor": "#c3c6c7",
                   "borderRadius": 25,
                   "height": 50,
                   "justifyContent": "center",
@@ -1303,7 +1303,7 @@ exports[`Timeline component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#BBC8CA",
+                      "color": "#c3c6c7",
                       "fontSize": 16,
                     }
                   }
@@ -1353,7 +1353,7 @@ exports[`Timeline component Renders correctly 1`] = `
               style={
                 Object {
                   "alignItems": "center",
-                  "backgroundColor": "#BBC8CA",
+                  "backgroundColor": "#c3c6c7",
                   "borderRadius": 25,
                   "height": 50,
                   "justifyContent": "center",
@@ -1396,7 +1396,7 @@ exports[`Timeline component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#BBC8CA",
+                      "color": "#c3c6c7",
                       "fontSize": 16,
                     }
                   }

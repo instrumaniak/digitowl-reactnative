@@ -11,7 +11,7 @@ import {
   Text
 } from 'native-base'
 
-import { colors } from '../../config'
+import { colors, themeColors } from '../../config'
 import CategoryItem from './CategoryItem'
 
 
@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center'
   },
   btnText: {
-    color: colors.greenDark
+    color: themeColors.brand
   },
   overviewButton: {
     flex: 1,

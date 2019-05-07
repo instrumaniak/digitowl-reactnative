@@ -15,11 +15,11 @@ import {
 } from 'native-base'
 
 import More from '../components/More'
-import { colors } from '../config'
+import { colors, themeColors } from '../config'
 
 const MoreScreen = () => (
   <Container style={{ backgroundColor: colors.whiteSmoke }}>
-    <Header hasTabs style={{ paddingLeft: 20, backgroundColor: colors.green }} androidStatusBarColor={colors.greenDark}>
+    <Header hasTabs style={{ paddingLeft: 20, backgroundColor: themeColors.brand }} androidStatusBarColor={themeColors.brandDarken}>
       <Body><Title>More</Title></Body>
       <Right>
         <Button transparent>

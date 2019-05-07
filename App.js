@@ -7,6 +7,7 @@ YellowBox.ignoreWarnings([
   'Warning: Async Storage'
 ])
 
+//const navigationPersistenceKey = null
 const navigationPersistenceKey = __DEV__ ? "NavigationStateDEV" : null // eslint-disable-line
 
 // Just for dev: react-navigation state persistance is enabled

@@ -26,7 +26,7 @@ import {
   Input
 } from 'native-base'
 
-import { colors } from '../config'
+import { colors, themeColors } from '../config'
 
 const Login = ({ navigation }) => {
   const type = navigation.getParam('type', '')
@@ -45,7 +45,7 @@ const Login = ({ navigation }) => {
               <Input placeholder='Password' secureTextEntry/>
             </Item>
           </Form>
-          <Button block style={{backgroundColor: colors.greenDark}} onPress={() => navigation.navigate('Dashboard')}>
+          <Button block style={{backgroundColor: colors.green }} onPress={() => navigation.navigate('Dashboard')}>
             <Text>Continue</Text>
           </Button>
         </View>
@@ -56,13 +56,13 @@ const Login = ({ navigation }) => {
             <Text style={styles.textOr}>or</Text>
             <View style={styles.dash} />
           </View>
-          <Button iconLeft block>
+          <Button iconLeft light block>
             <Icon name='logo-facebook' style={styles.icons}/>
-            <Text uppercase={false}>{buttonText} with Facebook</Text>
+            <Text style={styles.iconsText} uppercase={false}>{buttonText} with Facebook</Text>
           </Button>
           <Button block iconLeft light style={{ marginTop: 15 }}>
             <Icon name='logo-google' style={styles.icons}/>
-            <Text uppercase={false}>  {buttonText} with Google   </Text>{/* Space for alignment */}
+            <Text style={styles.iconsText} uppercase={false}>  {buttonText} with Google   </Text>{/* Space for alignment */}
           </Button>
         </View>
 
@@ -79,7 +79,7 @@ const Login = ({ navigation }) => {
 // Header
 Login.navigationOptions = ({ navigation }) => ({
   header: (
-    <Header androidStatusBarColor={colors.greenDark} style={{ backgroundColor: colors.green}}>
+    <Header androidStatusBarColor={themeColors.brandDarken} style={{ backgroundColor: themeColors.brand}}>
       <Left>
         <Button transparent onPress={() => navigation.goBack()}>
           <Icon name='arrow-back' />
@@ -99,7 +99,10 @@ Login.propTypes = {
 
 const styles = StyleSheet.create({
   icons: {
-    color: colors.grey
+    color: colors.grey1
+  },
+  iconsText: {
+    color: colors.grey2
   },
   textOr: {
     padding: 20,

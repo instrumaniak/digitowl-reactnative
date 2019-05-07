@@ -19,7 +19,7 @@ exports[`Renders correctly 1`] = `
     onLayout={[Function]}
   >
     <View
-      androidStatusBarColor="#00a16b"
+      androidStatusBarColor="#4A687F"
       hasTabs={true}
       style={
         Array [
@@ -43,7 +43,7 @@ exports[`Renders correctly 1`] = `
             "top": 0,
           },
           Object {
-            "backgroundColor": "#00b175",
+            "backgroundColor": "#4E6D86",
             "elevation": 2,
             "paddingLeft": 20,
           },
@@ -168,7 +168,7 @@ exports[`Renders correctly 1`] = `
           <Text
             style={
               Object {
-                "color": "#BBC8CA",
+                "color": "#c3c6c7",
               }
             }
           >
@@ -202,7 +202,7 @@ exports[`Renders correctly 1`] = `
                     "fontSize": 30,
                   },
                   Object {
-                    "color": "#BBC8CA",
+                    "color": "#c3c6c7",
                   },
                 ],
                 Object {
@@ -251,7 +251,7 @@ exports[`Renders correctly 1`] = `
           <Text
             style={
               Object {
-                "color": "#BBC8CA",
+                "color": "#c3c6c7",
               }
             }
           >
@@ -285,7 +285,7 @@ exports[`Renders correctly 1`] = `
                     "fontSize": 30,
                   },
                   Object {
-                    "color": "#BBC8CA",
+                    "color": "#c3c6c7",
                   },
                 ],
                 Object {
@@ -334,7 +334,7 @@ exports[`Renders correctly 1`] = `
           <Text
             style={
               Object {
-                "color": "#BBC8CA",
+                "color": "#c3c6c7",
               }
             }
           >
@@ -368,7 +368,7 @@ exports[`Renders correctly 1`] = `
                     "fontSize": 30,
                   },
                   Object {
-                    "color": "#BBC8CA",
+                    "color": "#c3c6c7",
                   },
                 ],
                 Object {

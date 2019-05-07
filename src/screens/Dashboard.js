@@ -18,11 +18,11 @@ import {
 } from 'native-base'
 
 import Dash from '../components/Dashboard'
-import { colors } from '../config'
+import { colors, themeColors } from '../config'
 
 const Dashboard = () => (
   <Container>
-    <Header hasTabs style={{ paddingLeft: 20, backgroundColor: colors.green }} androidStatusBarColor={colors.greenDark}>
+    <Header hasTabs style={{ paddingLeft: 20, backgroundColor: themeColors.brand }} androidStatusBarColor={themeColors.brandDarken}>
       <Body><Title>Dashboard</Title></Body>
       <Right>
         <Button transparent>
@@ -36,27 +36,27 @@ const Dashboard = () => (
         </Button>
       </Right>
     </Header>
-    <Tabs renderTabBar={()=><ScrollableTab style={{ backgroundColor: colors.green }}/>}>
+    <Tabs renderTabBar={()=><ScrollableTab style={{ backgroundColor: themeColors.brand }}/>}>
       <Tab
         style={{ backgroundColor: colors.whiteSmoke }}
         heading='April 2019'
-        tabStyle={{ backgroundColor: colors.green}}
-        activeTabStyle={{ backgroundColor: colors.green}}
+        tabStyle={{ backgroundColor: themeColors.brand}}
+        activeTabStyle={{ backgroundColor: themeColors.brand}}
         textStyle={{ color: colors.whiteSmoke }}
       >
         <Dash />
       </Tab>
       <Tab
         heading='May 2019'
-        tabStyle={{ backgroundColor: colors.green}}
-        activeTabStyle={{ backgroundColor: colors.green}}
+        tabStyle={{ backgroundColor: themeColors.brand}}
+        activeTabStyle={{ backgroundColor: themeColors.brand}}
         textStyle={{ color: colors.whiteSmoke }}
       />
       <Tab
         heading='June 2019'
         style={{ backgroundColor: colors.whiteSmoke }}
-        tabStyle={{ backgroundColor: colors.green}}
-        activeTabStyle={{ backgroundColor: colors.green}}
+        tabStyle={{ backgroundColor: themeColors.brand}}
+        activeTabStyle={{ backgroundColor: themeColors.brand}}
         textStyle={{ color: colors.whiteSmoke }}
       />
     </Tabs>

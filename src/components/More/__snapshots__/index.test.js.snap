@@ -109,7 +109,7 @@ exports[`Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#BBC8CA",
+                      "color": "#c3c6c7",
                       "fontSize": 16,
                     }
                   }
@@ -586,7 +586,7 @@ exports[`Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#BBC8CA",
+                      "color": "#c3c6c7",
                       "fontSize": 16,
                     }
                   }
@@ -679,7 +679,7 @@ exports[`Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#BBC8CA",
+                      "color": "#c3c6c7",
                       "fontSize": 16,
                     }
                   }
@@ -990,7 +990,7 @@ exports[`Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#BBC8CA",
+                      "color": "#c3c6c7",
                       "fontSize": 16,
                     }
                   }

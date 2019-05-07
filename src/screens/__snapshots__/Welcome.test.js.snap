@@ -4,7 +4,7 @@ exports[`Renders correctly 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#00b175",
+      "backgroundColor": "#4E6D86",
       "flex": 1,
     }
   }
@@ -115,7 +115,7 @@ exports[`Renders correctly 1`] = `
               "paddingRight": 16,
             },
             Object {
-              "color": "#00b175",
+              "color": "#4E6D86",
             },
           ]
         }

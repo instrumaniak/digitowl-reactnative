@@ -16,18 +16,18 @@ import {
   Text
 } from 'native-base'
 
-import { colors } from '../config'
+import { themeColors } from '../config'
 
 const Welcome = ({ navigation }) => (
-  <View style={{flex: 1, backgroundColor: colors.green}}>
-    <StatusBar backgroundColor={colors.greenDark} />
+  <View style={{flex: 1, backgroundColor: themeColors.brand }}>
+    <StatusBar backgroundColor={ themeColors.brandDarken } />
     <View style={styles.titleContainer}>
       <Text style={styles.logoTitle}>DigitOwl</Text>
       <Text style={styles.logoSubTitle}>Expense tracker</Text>
     </View>
     <View style={styles.btnContainer}>
       <Button block light onPress={() => navigation.navigate('Login', {type: 'register'})}>
-        <Text style={{color: colors.green}} uppercase={false}>New to DigitOwl</Text>
+        <Text style={{color: themeColors.brand }} uppercase={false}>New to DigitOwl</Text>
       </Button>
       <Button block bordered light onPress={() => navigation.navigate('Login', {type: 'login'})}>
         <Text style={{color: 'white'}} uppercase={false}>Already using DigitOwl</Text>

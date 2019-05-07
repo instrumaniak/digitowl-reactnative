@@ -11,11 +11,11 @@ import {
 } from 'native-base'
 
 import ActivityCard from '../components/ActivityCard'
-import { colors } from '../config'
+import { colors, themeColors } from '../config'
 
 const Activity = () => (
   <Container style={{ backgroundColor: colors.whiteSmoke }}>
-    <Header hasTabs style={{ elevation:2, paddingLeft: 20, backgroundColor: colors.green }} androidStatusBarColor={colors.greenDark}>
+    <Header hasTabs style={{ elevation:2, paddingLeft: 20, backgroundColor: themeColors.brand }} androidStatusBarColor={themeColors.brandDarken}>
       <Body><Title>Activity</Title></Body>
     </Header>
     <Content removeClippedSubviews={true} contentContainerStyle={{paddingHorizontal: 10, paddingBottom: 10, paddingTop: 5}}>

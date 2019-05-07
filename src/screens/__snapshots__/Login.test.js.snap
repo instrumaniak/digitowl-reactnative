@@ -124,7 +124,7 @@ exports[`Login Screen Renders correctly 1`] = `
                       "paddingRight": 8,
                     },
                     Object {
-                      "color": "#BBC8CA",
+                      "color": "#5B6267",
                     },
                   ],
                   Object {
@@ -203,7 +203,7 @@ exports[`Login Screen Renders correctly 1`] = `
                       "paddingRight": 8,
                     },
                     Object {
-                      "color": "#BBC8CA",
+                      "color": "#5B6267",
                     },
                   ],
                   Object {
@@ -252,7 +252,7 @@ exports[`Login Screen Renders correctly 1`] = `
             Object {
               "alignItems": "center",
               "alignSelf": "stretch",
-              "backgroundColor": "#00a16b",
+              "backgroundColor": "#119DA4",
               "borderBottomWidth": null,
               "borderColor": "#007aff",
               "borderLeftWidth": null,
@@ -306,7 +306,7 @@ exports[`Login Screen Renders correctly 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#BBC8CA",
+                "backgroundColor": "#c3c6c7",
                 "height": 1,
                 "width": 100,
               }
@@ -334,7 +334,7 @@ exports[`Login Screen Renders correctly 1`] = `
           <View
             style={
               Object {
-                "backgroundColor": "#BBC8CA",
+                "backgroundColor": "#c3c6c7",
                 "height": 1,
                 "width": 100,
               }
@@ -354,7 +354,7 @@ exports[`Login Screen Renders correctly 1`] = `
             Object {
               "alignItems": "center",
               "alignSelf": "stretch",
-              "backgroundColor": "#007aff",
+              "backgroundColor": "#f4f4f4",
               "borderBottomWidth": null,
               "borderColor": "#007aff",
               "borderLeftWidth": null,
@@ -390,14 +390,14 @@ exports[`Login Screen Renders correctly 1`] = `
                     "fontSize": 30,
                   },
                   Object {
-                    "color": "#fff",
+                    "color": "#000",
                     "fontSize": 24,
                     "marginLeft": 16,
                     "marginRight": 0,
                     "paddingTop": 2,
                   },
                   Object {
-                    "color": "#BBC8CA",
+                    "color": "#5B6267",
                   },
                 ],
                 Object {
@@ -413,16 +413,21 @@ exports[`Login Screen Renders correctly 1`] = `
           </Text>
           <Text
             style={
-              Object {
-                "backgroundColor": "transparent",
-                "color": "#fff",
-                "fontFamily": "System",
-                "fontSize": 16.5,
-                "marginLeft": 0,
-                "marginRight": 0,
-                "paddingLeft": 16,
-                "paddingRight": 16,
-              }
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16.5,
+                  "marginLeft": 0,
+                  "marginRight": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                },
+                Object {
+                  "color": "#4B5358",
+                },
+              ]
             }
             uppercase={false}
           >
@@ -487,7 +492,7 @@ exports[`Login Screen Renders correctly 1`] = `
                     "paddingTop": 2,
                   },
                   Object {
-                    "color": "#BBC8CA",
+                    "color": "#5B6267",
                   },
                 ],
                 Object {
@@ -503,16 +508,21 @@ exports[`Login Screen Renders correctly 1`] = `
           </Text>
           <Text
             style={
-              Object {
-                "backgroundColor": "transparent",
-                "color": "#000",
-                "fontFamily": "System",
-                "fontSize": 16.5,
-                "marginLeft": 0,
-                "marginRight": 0,
-                "paddingLeft": 16,
-                "paddingRight": 16,
-              }
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16.5,
+                  "marginLeft": 0,
+                  "marginRight": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                },
+                Object {
+                  "color": "#4B5358",
+                },
+              ]
             }
             uppercase={false}
           >
@@ -538,7 +548,7 @@ exports[`Login Screen Renders correctly 1`] = `
                 "fontSize": 16,
               },
               Object {
-                "color": "#BBC8CA",
+                "color": "#c3c6c7",
                 "fontSize": 14,
                 "fontStyle": "italic",
                 "padding": 10,
@@ -561,7 +571,7 @@ exports[`Login Screen Renders correctly 1`] = `
                   "fontSize": 16,
                 },
                 Object {
-                  "color": "#BBC8CA",
+                  "color": "#c3c6c7",
                   "fontSize": 14,
                   "textDecorationLine": "underline",
                 },
@@ -583,7 +593,7 @@ exports[`Login Screen Renders correctly 1`] = `
                   "fontSize": 16,
                 },
                 Object {
-                  "color": "#BBC8CA",
+                  "color": "#c3c6c7",
                   "fontSize": 14,
                   "textDecorationLine": "underline",
                 },

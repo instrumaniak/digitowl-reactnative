@@ -21,7 +21,8 @@ import Timeline from '../screens/Timeline'
 import Activity from '../screens/Activity'
 import More from '../screens/More'
 
-import { colors } from '../config'
+import { themeColors } from '../config'
+
 
 // For performance
 import { useScreens } from 'react-native-screens'
@@ -76,7 +77,7 @@ const bottomTabStack = createBottomTabNavigator({
   }
 }, {
   tabBarOptions: {
-    activeTintColor: colors.green,
+    activeTintColor: themeColors.brandDarken,
     style: {
       //backgroundColor: '#eee',
       borderTopWidth: 1,
@@ -104,7 +105,7 @@ const AppStack = createStackNavigator({
 }, {
   defaultNavigationOptions: {
     headerStyle: {
-      backgroundColor: colors.green
+      backgroundColor: themeColors.brand,
     }
   }
 })

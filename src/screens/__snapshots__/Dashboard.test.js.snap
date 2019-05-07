@@ -14,7 +14,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
     onLayout={[Function]}
   >
     <View
-      androidStatusBarColor="#00a16b"
+      androidStatusBarColor="#4A687F"
       hasTabs={true}
       style={
         Array [
@@ -38,7 +38,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
             "top": 0,
           },
           Object {
-            "backgroundColor": "#00b175",
+            "backgroundColor": "#4E6D86",
             "paddingLeft": 20,
           },
         ]
@@ -330,7 +330,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
           Array [
             Object {},
             Object {
-              "backgroundColor": "#00b175",
+              "backgroundColor": "#4E6D86",
             },
           ],
         ]
@@ -393,7 +393,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                       "paddingRight": 20,
                     },
                     Object {
-                      "backgroundColor": "#00b175",
+                      "backgroundColor": "#4E6D86",
                     },
                   ]
                 }
@@ -453,7 +453,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                       "paddingRight": 20,
                     },
                     Object {
-                      "backgroundColor": "#00b175",
+                      "backgroundColor": "#4E6D86",
                     },
                   ]
                 }
@@ -514,7 +514,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                       "paddingRight": 20,
                     },
                     Object {
-                      "backgroundColor": "#00b175",
+                      "backgroundColor": "#4E6D86",
                     },
                   ]
                 }
@@ -591,7 +591,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
           <View
             activeTabStyle={
               Object {
-                "backgroundColor": "#00b175",
+                "backgroundColor": "#4E6D86",
               }
             }
             heading="April 2019"
@@ -608,7 +608,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
             }
             tabStyle={
               Object {
-                "backgroundColor": "#00b175",
+                "backgroundColor": "#4E6D86",
               }
             }
             textStyle={
@@ -763,7 +763,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                                   "paddingRight": 16,
                                 },
                                 Object {
-                                  "color": "#00a16b",
+                                  "color": "#4B5358",
                                 },
                               ]
                             }
@@ -823,7 +823,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                                   "paddingRight": 16,
                                 },
                                 Object {
-                                  "color": "#00a16b",
+                                  "color": "#4B5358",
                                 },
                               ]
                             }
@@ -1529,7 +1529,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                           style={
                             Object {
                               "alignItems": "center",
-                              "backgroundColor": "#BBC8CA",
+                              "backgroundColor": "#c3c6c7",
                               "borderRadius": 25,
                               "height": 50,
                               "justifyContent": "center",
@@ -1572,7 +1572,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                             <Text
                               style={
                                 Object {
-                                  "color": "#BBC8CA",
+                                  "color": "#c3c6c7",
                                   "fontSize": 16,
                                 }
                               }
@@ -1622,7 +1622,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                           style={
                             Object {
                               "alignItems": "center",
-                              "backgroundColor": "#BBC8CA",
+                              "backgroundColor": "#c3c6c7",
                               "borderRadius": 25,
                               "height": 50,
                               "justifyContent": "center",
@@ -1665,7 +1665,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                             <Text
                               style={
                                 Object {
-                                  "color": "#BBC8CA",
+                                  "color": "#c3c6c7",
                                   "fontSize": 16,
                                 }
                               }
@@ -1715,7 +1715,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                           style={
                             Object {
                               "alignItems": "center",
-                              "backgroundColor": "#BBC8CA",
+                              "backgroundColor": "#c3c6c7",
                               "borderRadius": 25,
                               "height": 50,
                               "justifyContent": "center",
@@ -1758,7 +1758,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                             <Text
                               style={
                                 Object {
-                                  "color": "#BBC8CA",
+                                  "color": "#c3c6c7",
                                   "fontSize": 16,
                                 }
                               }
@@ -1808,7 +1808,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                           style={
                             Object {
                               "alignItems": "center",
-                              "backgroundColor": "#BBC8CA",
+                              "backgroundColor": "#c3c6c7",
                               "borderRadius": 25,
                               "height": 50,
                               "justifyContent": "center",
@@ -1851,7 +1851,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                             <Text
                               style={
                                 Object {
-                                  "color": "#BBC8CA",
+                                  "color": "#c3c6c7",
                                   "fontSize": 16,
                                 }
                               }
@@ -1901,7 +1901,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                           style={
                             Object {
                               "alignItems": "center",
-                              "backgroundColor": "#BBC8CA",
+                              "backgroundColor": "#c3c6c7",
                               "borderRadius": 25,
                               "height": 50,
                               "justifyContent": "center",
@@ -1944,7 +1944,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                             <Text
                               style={
                                 Object {
-                                  "color": "#BBC8CA",
+                                  "color": "#c3c6c7",
                                   "fontSize": 16,
                                 }
                               }
@@ -2284,7 +2284,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                           style={
                             Object {
                               "alignItems": "center",
-                              "backgroundColor": "#BBC8CA",
+                              "backgroundColor": "#c3c6c7",
                               "borderRadius": 25,
                               "height": 50,
                               "justifyContent": "center",
@@ -2327,7 +2327,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                             <Text
                               style={
                                 Object {
-                                  "color": "#BBC8CA",
+                                  "color": "#c3c6c7",
                                   "fontSize": 16,
                                 }
                               }
@@ -2377,7 +2377,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                           style={
                             Object {
                               "alignItems": "center",
-                              "backgroundColor": "#BBC8CA",
+                              "backgroundColor": "#c3c6c7",
                               "borderRadius": 25,
                               "height": 50,
                               "justifyContent": "center",
@@ -2420,7 +2420,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                             <Text
                               style={
                                 Object {
-                                  "color": "#BBC8CA",
+                                  "color": "#c3c6c7",
                                   "fontSize": 16,
                                 }
                               }
@@ -2470,7 +2470,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                           style={
                             Object {
                               "alignItems": "center",
-                              "backgroundColor": "#BBC8CA",
+                              "backgroundColor": "#c3c6c7",
                               "borderRadius": 25,
                               "height": 50,
                               "justifyContent": "center",
@@ -2513,7 +2513,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                             <Text
                               style={
                                 Object {
-                                  "color": "#BBC8CA",
+                                  "color": "#c3c6c7",
                                   "fontSize": 16,
                                 }
                               }
@@ -2563,7 +2563,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                           style={
                             Object {
                               "alignItems": "center",
-                              "backgroundColor": "#BBC8CA",
+                              "backgroundColor": "#c3c6c7",
                               "borderRadius": 25,
                               "height": 50,
                               "justifyContent": "center",
@@ -2606,7 +2606,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                             <Text
                               style={
                                 Object {
-                                  "color": "#BBC8CA",
+                                  "color": "#c3c6c7",
                                   "fontSize": 16,
                                 }
                               }
@@ -2762,7 +2762,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                           style={
                             Object {
                               "alignItems": "center",
-                              "backgroundColor": "#BBC8CA",
+                              "backgroundColor": "#c3c6c7",
                               "borderRadius": 25,
                               "height": 50,
                               "justifyContent": "center",
@@ -2805,7 +2805,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                             <Text
                               style={
                                 Object {
-                                  "color": "#BBC8CA",
+                                  "color": "#c3c6c7",
                                   "fontSize": 16,
                                 }
                               }
@@ -2855,7 +2855,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                           style={
                             Object {
                               "alignItems": "center",
-                              "backgroundColor": "#BBC8CA",
+                              "backgroundColor": "#c3c6c7",
                               "borderRadius": 25,
                               "height": 50,
                               "justifyContent": "center",
@@ -2898,7 +2898,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                             <Text
                               style={
                                 Object {
-                                  "color": "#BBC8CA",
+                                  "color": "#c3c6c7",
                                   "fontSize": 16,
                                 }
                               }
@@ -2948,7 +2948,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                           style={
                             Object {
                               "alignItems": "center",
-                              "backgroundColor": "#BBC8CA",
+                              "backgroundColor": "#c3c6c7",
                               "borderRadius": 25,
                               "height": 50,
                               "justifyContent": "center",
@@ -2991,7 +2991,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                             <Text
                               style={
                                 Object {
-                                  "color": "#BBC8CA",
+                                  "color": "#c3c6c7",
                                   "fontSize": 16,
                                 }
                               }
@@ -3064,7 +3064,7 @@ exports[`Dashboard Screen Renders correctly 1`] = `
                 style={
                   Object {
                     "alignItems": "center",
-                    "backgroundColor": "#00b175",
+                    "backgroundColor": "#52728D",
                     "borderRadius": 30,
                     "bottom": 10,
                     "elevation": 10,

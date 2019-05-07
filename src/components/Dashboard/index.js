@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center'
   },
   btnText: {
-    color: colors.greenDark
+    color: colors.grey2
   },
   overviewButton: {
     flex: 1,
