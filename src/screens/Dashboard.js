@@ -17,13 +17,14 @@ import {
   ScrollableTab
 } from 'native-base'
 
+import { human } from 'react-native-typography'
 import Dash from '../components/Dashboard'
 import { colors, themeColors } from '../config'
 
 const Dashboard = () => (
   <Container>
     <Header hasTabs style={{ paddingLeft: 20, backgroundColor: themeColors.brand }} androidStatusBarColor={themeColors.brandDarken}>
-      <Body><Title>Dashboard</Title></Body>
+      <Body><Title style={ human.title3White }>Dashboard</Title></Body>
       <Right>
         <Button transparent>
           <Icon name='ios-folder-open' />

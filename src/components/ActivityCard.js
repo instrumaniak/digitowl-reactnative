@@ -14,6 +14,7 @@ import {
   Icon
 } from 'native-base'
 
+import { human } from 'react-native-typography'
 import { colors } from '../config'
 
 const ActivityCard = () => (
@@ -43,11 +44,13 @@ const styles = StyleSheet.create({
     paddingLeft: 2
   },
   text: {
-    fontSize: 16,
+    ...human.bodyObject,
+    color: colors.grey1,
     marginBottom: 10
   },
   time: {
-    color: colors.grey
+    ...human.subheadObject,
+    color: colors.grey,
   },
   iconContainer: {
     justifyContent: 'center',

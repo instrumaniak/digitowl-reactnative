@@ -12,11 +12,12 @@ import {
 
 import ActivityCard from '../components/ActivityCard'
 import { colors, themeColors } from '../config'
+import { human } from 'react-native-typography'
 
 const Activity = () => (
   <Container style={{ backgroundColor: colors.whiteSmoke }}>
     <Header hasTabs style={{ elevation:2, paddingLeft: 20, backgroundColor: themeColors.brand }} androidStatusBarColor={themeColors.brandDarken}>
-      <Body><Title>Activity</Title></Body>
+      <Body><Title style={ human.title3White }>Activity</Title></Body>
     </Header>
     <Content removeClippedSubviews={true} contentContainerStyle={{paddingHorizontal: 10, paddingBottom: 10, paddingTop: 5}}>
       <ActivityCard />

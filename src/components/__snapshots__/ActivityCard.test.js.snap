@@ -24,7 +24,13 @@ exports[`Renders correctly 1`] = `
     <Text
       style={
         Object {
-          "fontSize": 16,
+          "backgroundColor": "transparent",
+          "color": "#5B6267",
+          "fontFamily": "System",
+          "fontSize": 17,
+          "fontWeight": "400",
+          "letterSpacing": -0.408,
+          "lineHeight": 22,
           "marginBottom": 10,
         }
       }
@@ -34,7 +40,13 @@ exports[`Renders correctly 1`] = `
     <Text
       style={
         Object {
+          "backgroundColor": "transparent",
           "color": "#c3c6c7",
+          "fontFamily": "System",
+          "fontSize": 15,
+          "fontWeight": "400",
+          "letterSpacing": -0.24,
+          "lineHeight": 20,
         }
       }
     >

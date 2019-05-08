@@ -62,16 +62,27 @@ exports[`Renders correctly 1`] = `
         <Text
           numberOfLines={1}
           style={
-            Object {
-              "color": "#000",
-              "fontFamily": "System",
-              "fontSize": 17,
-              "fontWeight": "700",
-              "marginLeft": undefined,
-              "paddingLeft": 4,
-              "paddingTop": 1,
-              "textAlign": "center",
-            }
+            Array [
+              Object {
+                "color": "#000",
+                "fontFamily": "System",
+                "fontSize": 17,
+                "fontWeight": "700",
+                "marginLeft": undefined,
+                "paddingLeft": 4,
+                "paddingTop": 1,
+                "textAlign": "center",
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#FFFFFF",
+                "fontFamily": "System",
+                "fontSize": 20,
+                "fontWeight": "400",
+                "letterSpacing": 0.361328,
+                "lineHeight": 25,
+              },
+            ]
           }
         >
           Activity
@@ -158,7 +169,13 @@ exports[`Renders correctly 1`] = `
           <Text
             style={
               Object {
-                "fontSize": 16,
+                "backgroundColor": "transparent",
+                "color": "#5B6267",
+                "fontFamily": "System",
+                "fontSize": 17,
+                "fontWeight": "400",
+                "letterSpacing": -0.408,
+                "lineHeight": 22,
                 "marginBottom": 10,
               }
             }
@@ -168,7 +185,13 @@ exports[`Renders correctly 1`] = `
           <Text
             style={
               Object {
+                "backgroundColor": "transparent",
                 "color": "#c3c6c7",
+                "fontFamily": "System",
+                "fontSize": 15,
+                "fontWeight": "400",
+                "letterSpacing": -0.24,
+                "lineHeight": 20,
               }
             }
           >
@@ -241,7 +264,13 @@ exports[`Renders correctly 1`] = `
           <Text
             style={
               Object {
-                "fontSize": 16,
+                "backgroundColor": "transparent",
+                "color": "#5B6267",
+                "fontFamily": "System",
+                "fontSize": 17,
+                "fontWeight": "400",
+                "letterSpacing": -0.408,
+                "lineHeight": 22,
                 "marginBottom": 10,
               }
             }
@@ -251,7 +280,13 @@ exports[`Renders correctly 1`] = `
           <Text
             style={
               Object {
+                "backgroundColor": "transparent",
                 "color": "#c3c6c7",
+                "fontFamily": "System",
+                "fontSize": 15,
+                "fontWeight": "400",
+                "letterSpacing": -0.24,
+                "lineHeight": 20,
               }
             }
           >
@@ -324,7 +359,13 @@ exports[`Renders correctly 1`] = `
           <Text
             style={
               Object {
-                "fontSize": 16,
+                "backgroundColor": "transparent",
+                "color": "#5B6267",
+                "fontFamily": "System",
+                "fontSize": 17,
+                "fontWeight": "400",
+                "letterSpacing": -0.408,
+                "lineHeight": 22,
                 "marginBottom": 10,
               }
             }
@@ -334,7 +375,13 @@ exports[`Renders correctly 1`] = `
           <Text
             style={
               Object {
+                "backgroundColor": "transparent",
                 "color": "#c3c6c7",
+                "fontFamily": "System",
+                "fontSize": 15,
+                "fontWeight": "400",
+                "letterSpacing": -0.24,
+                "lineHeight": 20,
               }
             }
           >

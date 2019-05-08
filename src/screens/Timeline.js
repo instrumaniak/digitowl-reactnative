@@ -17,13 +17,14 @@ import {
   ScrollableTab
 } from 'native-base'
 
+import { human } from 'react-native-typography'
 import { colors, themeColors } from '../config'
 import Timeline from '../components/Timeline'
 
 const TimelineScreen = () => (
   <Container style={{ backgroundColor: colors.whiteSmoke }}>
     <Header hasTabs style={{ paddingLeft: 20, backgroundColor: themeColors.brand }} androidStatusBarColor={themeColors.brandDarken}>
-      <Body><Title>Timeline</Title></Body>
+      <Body><Title style={ human.title3White }>Timeline</Title></Body>
       <Right>
         <Button transparent>
           <Icon name='ios-folder-open' />

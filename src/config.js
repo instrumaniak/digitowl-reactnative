@@ -22,9 +22,9 @@ export const colors = {
   whiteSmoke: '#F5F3F5',
 
   //grey: '#BBC8CA', // silver sand
-  grey: '#c3c6c7',
-  grey1: '#5B6267', // black coral
-  grey2: '#4B5358', // davy's grey
+  grey: '#c3c6c7', // light text
+  grey1: '#5B6267', // black coral // std. text color
+  grey2: '#4B5358', // davy's grey // header text
   grey3: '#393D3F', // black olide
 
   charcoal: '#383F51',

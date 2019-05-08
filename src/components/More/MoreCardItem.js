@@ -8,6 +8,7 @@ import {
 
 import { Icon } from 'native-base'
 import { colors } from '../../config'
+import { human } from 'react-native-typography'
 
 const MoreCardItem = ({
   iconText,
@@ -69,11 +70,13 @@ const styles = StyleSheet.create({
 
   // typography
   title: {
+    ...human.bodyObject,
     color: colors.grey1,
-    fontSize: 18,
+    //fontSize: 18,
     //fontWeight: 'bold'
   },
   description: {
+    ...human.subheadObject,
     color: colors.grey,
     fontSize: 16
   },
