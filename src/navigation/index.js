@@ -15,14 +15,12 @@ import { Icon } from 'native-base'
 
 import Welcome from '../screens/Welcome'
 import Login from '../screens/Login'
-//import Home from '../screens/Home'
 import Dashboard from '../screens/Dashboard'
 import Timeline from '../screens/Timeline'
 import Activity from '../screens/Activity'
 import More from '../screens/More'
 
-import { themeColors } from '../config'
-
+import { colors, themeColors } from '../config'
 
 // For performance
 import { useScreens } from 'react-native-screens'
@@ -78,11 +76,14 @@ const bottomTabStack = createBottomTabNavigator({
 }, {
   tabBarOptions: {
     activeTintColor: themeColors.brandDarken,
+    //inactiveTintColor: colors.grey1,
+    //activeBackgroundColor: colors.whiteSmoke,
+    inactiveBackgroundColor: colors.whiteSmoke,
     style: {
-      //backgroundColor: '#eee',
+      //backgroundColor: colors.white,
       borderTopWidth: 1,
       borderTopColor: '#eee',
-      paddingTop: 5,
+      //paddingTop: 5,
       paddingBottom: 2
     }
   },
