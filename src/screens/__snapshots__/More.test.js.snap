@@ -294,7 +294,7 @@ exports[`Renders correctly 1`] = `
                         "backgroundColor": "transparent",
                         "color": "#c3c6c7",
                         "fontFamily": "System",
-                        "fontSize": 16,
+                        "fontSize": 15,
                         "fontWeight": "400",
                         "letterSpacing": -0.24,
                         "lineHeight": 20,
@@ -324,7 +324,7 @@ exports[`Renders correctly 1`] = `
                             "width": 35,
                           },
                           Object {
-                            "color": "#5B6267",
+                            "color": "#c3c6c7",
                           },
                         ],
                         Object {
@@ -412,7 +412,7 @@ exports[`Renders correctly 1`] = `
                             "width": 35,
                           },
                           Object {
-                            "color": "#5B6267",
+                            "color": "#c3c6c7",
                           },
                         ],
                         Object {
@@ -500,7 +500,7 @@ exports[`Renders correctly 1`] = `
                             "width": 35,
                           },
                           Object {
-                            "color": "#5B6267",
+                            "color": "#c3c6c7",
                           },
                         ],
                         Object {
@@ -645,7 +645,7 @@ exports[`Renders correctly 1`] = `
                             "width": 35,
                           },
                           Object {
-                            "color": "#5B6267",
+                            "color": "#c3c6c7",
                           },
                         ],
                         Object {
@@ -733,7 +733,7 @@ exports[`Renders correctly 1`] = `
                             "width": 35,
                           },
                           Object {
-                            "color": "#5B6267",
+                            "color": "#c3c6c7",
                           },
                         ],
                         Object {
@@ -806,7 +806,7 @@ exports[`Renders correctly 1`] = `
                         "backgroundColor": "transparent",
                         "color": "#c3c6c7",
                         "fontFamily": "System",
-                        "fontSize": 16,
+                        "fontSize": 15,
                         "fontWeight": "400",
                         "letterSpacing": -0.24,
                         "lineHeight": 20,
@@ -836,7 +836,7 @@ exports[`Renders correctly 1`] = `
                             "width": 35,
                           },
                           Object {
-                            "color": "#5B6267",
+                            "color": "#c3c6c7",
                           },
                         ],
                         Object {
@@ -909,7 +909,7 @@ exports[`Renders correctly 1`] = `
                         "backgroundColor": "transparent",
                         "color": "#c3c6c7",
                         "fontFamily": "System",
-                        "fontSize": 16,
+                        "fontSize": 15,
                         "fontWeight": "400",
                         "letterSpacing": -0.24,
                         "lineHeight": 20,
@@ -939,7 +939,7 @@ exports[`Renders correctly 1`] = `
                             "width": 35,
                           },
                           Object {
-                            "color": "#5B6267",
+                            "color": "#c3c6c7",
                           },
                         ],
                         Object {
@@ -1084,7 +1084,7 @@ exports[`Renders correctly 1`] = `
                             "width": 35,
                           },
                           Object {
-                            "color": "#5B6267",
+                            "color": "#c3c6c7",
                           },
                         ],
                         Object {
@@ -1172,7 +1172,7 @@ exports[`Renders correctly 1`] = `
                             "width": 35,
                           },
                           Object {
-                            "color": "#5B6267",
+                            "color": "#c3c6c7",
                           },
                         ],
                         Object {
@@ -1245,7 +1245,7 @@ exports[`Renders correctly 1`] = `
                         "backgroundColor": "transparent",
                         "color": "#c3c6c7",
                         "fontFamily": "System",
-                        "fontSize": 16,
+                        "fontSize": 15,
                         "fontWeight": "400",
                         "letterSpacing": -0.24,
                         "lineHeight": 20,
@@ -1275,7 +1275,7 @@ exports[`Renders correctly 1`] = `
                             "width": 35,
                           },
                           Object {
-                            "color": "#5B6267",
+                            "color": "#c3c6c7",
                           },
                         ],
                         Object {
@@ -1329,7 +1329,7 @@ exports[`Renders correctly 1`] = `
               Object {
                 "alignItems": "center",
                 "alignSelf": "stretch",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#FFFFFF",
                 "borderBottomWidth": null,
                 "borderColor": "#007aff",
                 "borderLeftWidth": null,
@@ -1356,7 +1356,7 @@ exports[`Renders correctly 1`] = `
                 Array [
                   Object {
                     "backgroundColor": "transparent",
-                    "color": "#000",
+                    "color": "#fff",
                     "fontFamily": "System",
                     "fontSize": 16.5,
                     "marginLeft": 0,

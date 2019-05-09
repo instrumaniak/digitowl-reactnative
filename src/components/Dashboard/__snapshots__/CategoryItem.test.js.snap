@@ -24,8 +24,13 @@ exports[`CategoryItem component Renders correctly 1`] = `
     <Text
       style={
         Object {
+          "backgroundColor": "transparent",
           "color": "#FFFFFF",
-          "fontSize": 35,
+          "fontFamily": "System",
+          "fontSize": 28,
+          "fontWeight": "400",
+          "letterSpacing": 0.355469,
+          "lineHeight": 34,
         }
       }
     />
@@ -44,16 +49,26 @@ exports[`CategoryItem component Renders correctly 1`] = `
       <Text
         style={
           Object {
+            "backgroundColor": "transparent",
             "color": "#5B6267",
-            "fontSize": 20,
+            "fontFamily": "System",
+            "fontSize": 17,
+            "fontWeight": "400",
+            "letterSpacing": -0.408,
+            "lineHeight": 22,
           }
         }
       />
       <Text
         style={
           Object {
+            "backgroundColor": "transparent",
             "color": "#c3c6c7",
-            "fontSize": 16,
+            "fontFamily": "System",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "letterSpacing": -0.24,
+            "lineHeight": 20,
           }
         }
       />
@@ -62,9 +77,13 @@ exports[`CategoryItem component Renders correctly 1`] = `
       <Text
         style={
           Object {
-            "color": "#5B6267",
-            "fontSize": 18,
-            "fontWeight": "bold",
+            "backgroundColor": "transparent",
+            "color": "#4B5358",
+            "fontFamily": "System",
+            "fontSize": 17,
+            "fontWeight": "600",
+            "letterSpacing": -0.408,
+            "lineHeight": 22,
           }
         }
       />

@@ -65,7 +65,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                   "fontSize": 16,
                 },
                 Object {
-                  "color": "#5B6267",
+                  "backgroundColor": "transparent",
+                  "color": "#4B5358",
+                  "fontFamily": "System",
+                  "fontSize": 17,
+                  "fontWeight": "600",
+                  "letterSpacing": -0.408,
+                  "lineHeight": 22,
                 },
               ]
             }
@@ -147,7 +153,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                       "paddingRight": 16,
                     },
                     Object {
-                      "color": "#4B5358",
+                      "backgroundColor": "transparent",
+                      "color": "#5B6267",
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     },
                   ]
                 }
@@ -207,7 +219,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                       "paddingRight": 16,
                     },
                     Object {
-                      "color": "#4B5358",
+                      "backgroundColor": "transparent",
+                      "color": "#5B6267",
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     },
                   ]
                 }
@@ -273,7 +291,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                   "fontSize": 16,
                 },
                 Object {
-                  "color": "#5B6267",
+                  "backgroundColor": "transparent",
+                  "color": "#4B5358",
+                  "fontFamily": "System",
+                  "fontSize": 17,
+                  "fontWeight": "600",
+                  "letterSpacing": -0.408,
+                  "lineHeight": 22,
                 },
               ]
             }
@@ -328,8 +352,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                       "fontSize": 16,
                     },
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#5B6267",
-                      "fontSize": 15,
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                       "marginBottom": 5,
                     },
                   ]
@@ -347,9 +376,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                       "fontSize": 16,
                     },
                     Object {
-                      "color": "#5B6267",
+                      "backgroundColor": "transparent",
+                      "color": "#4B5358",
+                      "fontFamily": "System",
                       "fontSize": 20,
-                      "fontWeight": "bold",
+                      "fontWeight": "400",
+                      "letterSpacing": 0.361328,
+                      "lineHeight": 25,
                     },
                   ]
                 }
@@ -376,8 +409,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                       "fontSize": 16,
                     },
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#5B6267",
-                      "fontSize": 15,
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                       "marginBottom": 5,
                     },
                   ]
@@ -395,9 +433,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                       "fontSize": 16,
                     },
                     Object {
-                      "color": "#5B6267",
+                      "backgroundColor": "transparent",
+                      "color": "#4B5358",
+                      "fontFamily": "System",
                       "fontSize": 20,
-                      "fontWeight": "bold",
+                      "fontWeight": "400",
+                      "letterSpacing": 0.361328,
+                      "lineHeight": 25,
                     },
                   ]
                 }
@@ -451,7 +493,7 @@ exports[`Dashboard component Renders correctly 1`] = `
                   style={
                     Object {
                       "color": "transparent",
-                      "fontSize": undefined,
+                      "fontSize": 11,
                     }
                   }
                 >
@@ -502,7 +544,7 @@ exports[`Dashboard component Renders correctly 1`] = `
                     style={
                       Object {
                         "color": "transparent",
-                        "fontSize": undefined,
+                        "fontSize": 11,
                       }
                     }
                   >
@@ -585,8 +627,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                       "fontSize": 16,
                     },
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#5B6267",
+                      "fontFamily": "System",
                       "fontSize": 15,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.24,
+                      "lineHeight": 20,
                       "marginBottom": 5,
                     },
                   ]
@@ -604,9 +651,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                       "fontSize": 16,
                     },
                     Object {
-                      "color": "#5B6267",
+                      "backgroundColor": "transparent",
+                      "color": "#4B5358",
+                      "fontFamily": "System",
                       "fontSize": 20,
-                      "fontWeight": "bold",
+                      "fontWeight": "400",
+                      "letterSpacing": 0.361328,
+                      "lineHeight": 25,
                     },
                   ]
                 }
@@ -633,8 +684,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                       "fontSize": 16,
                     },
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#5B6267",
+                      "fontFamily": "System",
                       "fontSize": 15,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.24,
+                      "lineHeight": 20,
                       "marginBottom": 5,
                     },
                   ]
@@ -652,9 +708,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                       "fontSize": 16,
                     },
                     Object {
-                      "color": "#5B6267",
+                      "backgroundColor": "transparent",
+                      "color": "#4B5358",
+                      "fontFamily": "System",
                       "fontSize": 20,
-                      "fontWeight": "bold",
+                      "fontWeight": "400",
+                      "letterSpacing": 0.361328,
+                      "lineHeight": 25,
                     },
                   ]
                 }
@@ -720,7 +780,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                   "fontSize": 16,
                 },
                 Object {
-                  "color": "#5B6267",
+                  "backgroundColor": "transparent",
+                  "color": "#4B5358",
+                  "fontFamily": "System",
+                  "fontSize": 17,
+                  "fontWeight": "600",
+                  "letterSpacing": -0.408,
+                  "lineHeight": 22,
                 },
               ]
             }
@@ -775,8 +841,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                       "fontSize": 16,
                     },
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#5B6267",
-                      "fontSize": 15,
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                       "marginBottom": 5,
                     },
                   ]
@@ -794,9 +865,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                       "fontSize": 16,
                     },
                     Object {
-                      "color": "#5B6267",
+                      "backgroundColor": "transparent",
+                      "color": "#4B5358",
+                      "fontFamily": "System",
                       "fontSize": 20,
-                      "fontWeight": "bold",
+                      "fontWeight": "400",
+                      "letterSpacing": 0.361328,
+                      "lineHeight": 25,
                     },
                   ]
                 }
@@ -823,8 +898,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                       "fontSize": 16,
                     },
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#5B6267",
-                      "fontSize": 15,
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                       "marginBottom": 5,
                     },
                   ]
@@ -842,9 +922,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                       "fontSize": 16,
                     },
                     Object {
-                      "color": "#5B6267",
+                      "backgroundColor": "transparent",
+                      "color": "#4B5358",
+                      "fontFamily": "System",
                       "fontSize": 20,
-                      "fontWeight": "bold",
+                      "fontWeight": "400",
+                      "letterSpacing": 0.361328,
+                      "lineHeight": 25,
                     },
                   ]
                 }
@@ -924,8 +1008,13 @@ exports[`Dashboard component Renders correctly 1`] = `
               <Text
                 style={
                   Object {
+                    "backgroundColor": "transparent",
                     "color": "#FFFFFF",
-                    "fontSize": 35,
+                    "fontFamily": "System",
+                    "fontSize": 28,
+                    "fontWeight": "400",
+                    "letterSpacing": 0.355469,
+                    "lineHeight": 34,
                   }
                 }
               >
@@ -946,8 +1035,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#5B6267",
-                      "fontSize": 20,
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -956,8 +1050,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#c3c6c7",
-                      "fontSize": 16,
+                      "fontFamily": "System",
+                      "fontSize": 15,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.24,
+                      "lineHeight": 20,
                     }
                   }
                 >
@@ -968,9 +1067,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#5B6267",
-                      "fontSize": 18,
-                      "fontWeight": "bold",
+                      "backgroundColor": "transparent",
+                      "color": "#4B5358",
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -1017,8 +1120,13 @@ exports[`Dashboard component Renders correctly 1`] = `
               <Text
                 style={
                   Object {
+                    "backgroundColor": "transparent",
                     "color": "#FFFFFF",
-                    "fontSize": 35,
+                    "fontFamily": "System",
+                    "fontSize": 28,
+                    "fontWeight": "400",
+                    "letterSpacing": 0.355469,
+                    "lineHeight": 34,
                   }
                 }
               >
@@ -1039,8 +1147,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#5B6267",
-                      "fontSize": 20,
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -1049,8 +1162,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#c3c6c7",
-                      "fontSize": 16,
+                      "fontFamily": "System",
+                      "fontSize": 15,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.24,
+                      "lineHeight": 20,
                     }
                   }
                 >
@@ -1061,9 +1179,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#5B6267",
-                      "fontSize": 18,
-                      "fontWeight": "bold",
+                      "backgroundColor": "transparent",
+                      "color": "#4B5358",
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -1110,8 +1232,13 @@ exports[`Dashboard component Renders correctly 1`] = `
               <Text
                 style={
                   Object {
+                    "backgroundColor": "transparent",
                     "color": "#FFFFFF",
-                    "fontSize": 35,
+                    "fontFamily": "System",
+                    "fontSize": 28,
+                    "fontWeight": "400",
+                    "letterSpacing": 0.355469,
+                    "lineHeight": 34,
                   }
                 }
               >
@@ -1132,8 +1259,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#5B6267",
-                      "fontSize": 20,
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -1142,8 +1274,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#c3c6c7",
-                      "fontSize": 16,
+                      "fontFamily": "System",
+                      "fontSize": 15,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.24,
+                      "lineHeight": 20,
                     }
                   }
                 >
@@ -1154,9 +1291,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#5B6267",
-                      "fontSize": 18,
-                      "fontWeight": "bold",
+                      "backgroundColor": "transparent",
+                      "color": "#4B5358",
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -1203,8 +1344,13 @@ exports[`Dashboard component Renders correctly 1`] = `
               <Text
                 style={
                   Object {
+                    "backgroundColor": "transparent",
                     "color": "#FFFFFF",
-                    "fontSize": 35,
+                    "fontFamily": "System",
+                    "fontSize": 28,
+                    "fontWeight": "400",
+                    "letterSpacing": 0.355469,
+                    "lineHeight": 34,
                   }
                 }
               >
@@ -1225,8 +1371,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#5B6267",
-                      "fontSize": 20,
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -1235,8 +1386,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#c3c6c7",
-                      "fontSize": 16,
+                      "fontFamily": "System",
+                      "fontSize": 15,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.24,
+                      "lineHeight": 20,
                     }
                   }
                 >
@@ -1247,9 +1403,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#5B6267",
-                      "fontSize": 18,
-                      "fontWeight": "bold",
+                      "backgroundColor": "transparent",
+                      "color": "#4B5358",
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -1296,8 +1456,13 @@ exports[`Dashboard component Renders correctly 1`] = `
               <Text
                 style={
                   Object {
+                    "backgroundColor": "transparent",
                     "color": "#FFFFFF",
-                    "fontSize": 35,
+                    "fontFamily": "System",
+                    "fontSize": 28,
+                    "fontWeight": "400",
+                    "letterSpacing": 0.355469,
+                    "lineHeight": 34,
                   }
                 }
               >
@@ -1318,8 +1483,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#5B6267",
-                      "fontSize": 20,
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -1328,8 +1498,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#c3c6c7",
-                      "fontSize": 16,
+                      "fontFamily": "System",
+                      "fontSize": 15,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.24,
+                      "lineHeight": 20,
                     }
                   }
                 >
@@ -1340,9 +1515,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#5B6267",
-                      "fontSize": 18,
-                      "fontWeight": "bold",
+                      "backgroundColor": "transparent",
+                      "color": "#4B5358",
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -1383,7 +1562,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                     "fontSize": 16,
                   },
                   Object {
+                    "backgroundColor": "transparent",
                     "color": "#5B6267",
+                    "fontFamily": "System",
+                    "fontSize": 15,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.24,
+                    "lineHeight": 20,
                     "textDecorationLine": "underline",
                   },
                 ]
@@ -1449,7 +1634,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                   "fontSize": 16,
                 },
                 Object {
-                  "color": "#5B6267",
+                  "backgroundColor": "transparent",
+                  "color": "#4B5358",
+                  "fontFamily": "System",
+                  "fontSize": 17,
+                  "fontWeight": "600",
+                  "letterSpacing": -0.408,
+                  "lineHeight": 22,
                 },
               ]
             }
@@ -1498,8 +1689,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                       "fontSize": 16,
                     },
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#5B6267",
+                      "fontFamily": "System",
                       "fontSize": 15,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.24,
+                      "lineHeight": 20,
                       "marginBottom": 5,
                     },
                   ]
@@ -1517,9 +1713,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                       "fontSize": 16,
                     },
                     Object {
-                      "color": "#5B6267",
+                      "backgroundColor": "transparent",
+                      "color": "#4B5358",
+                      "fontFamily": "System",
                       "fontSize": 20,
-                      "fontWeight": "bold",
+                      "fontWeight": "400",
+                      "letterSpacing": 0.361328,
+                      "lineHeight": 25,
                     },
                   ]
                 }
@@ -1546,8 +1746,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                       "fontSize": 16,
                     },
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#5B6267",
+                      "fontFamily": "System",
                       "fontSize": 15,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.24,
+                      "lineHeight": 20,
                       "marginBottom": 5,
                     },
                   ]
@@ -1565,9 +1770,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                       "fontSize": 16,
                     },
                     Object {
-                      "color": "#5B6267",
+                      "backgroundColor": "transparent",
+                      "color": "#4B5358",
+                      "fontFamily": "System",
                       "fontSize": 20,
-                      "fontWeight": "bold",
+                      "fontWeight": "400",
+                      "letterSpacing": 0.361328,
+                      "lineHeight": 25,
                     },
                   ]
                 }
@@ -1633,7 +1842,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                   "fontSize": 16,
                 },
                 Object {
-                  "color": "#5B6267",
+                  "backgroundColor": "transparent",
+                  "color": "#4B5358",
+                  "fontFamily": "System",
+                  "fontSize": 17,
+                  "fontWeight": "600",
+                  "letterSpacing": -0.408,
+                  "lineHeight": 22,
                 },
               ]
             }
@@ -1679,8 +1894,13 @@ exports[`Dashboard component Renders correctly 1`] = `
               <Text
                 style={
                   Object {
+                    "backgroundColor": "transparent",
                     "color": "#FFFFFF",
-                    "fontSize": 35,
+                    "fontFamily": "System",
+                    "fontSize": 28,
+                    "fontWeight": "400",
+                    "letterSpacing": 0.355469,
+                    "lineHeight": 34,
                   }
                 }
               >
@@ -1701,8 +1921,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#5B6267",
-                      "fontSize": 20,
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -1711,8 +1936,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#c3c6c7",
-                      "fontSize": 16,
+                      "fontFamily": "System",
+                      "fontSize": 15,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.24,
+                      "lineHeight": 20,
                     }
                   }
                 >
@@ -1723,9 +1953,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#5B6267",
-                      "fontSize": 18,
-                      "fontWeight": "bold",
+                      "backgroundColor": "transparent",
+                      "color": "#4B5358",
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -1772,8 +2006,13 @@ exports[`Dashboard component Renders correctly 1`] = `
               <Text
                 style={
                   Object {
+                    "backgroundColor": "transparent",
                     "color": "#FFFFFF",
-                    "fontSize": 35,
+                    "fontFamily": "System",
+                    "fontSize": 28,
+                    "fontWeight": "400",
+                    "letterSpacing": 0.355469,
+                    "lineHeight": 34,
                   }
                 }
               >
@@ -1794,8 +2033,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#5B6267",
-                      "fontSize": 20,
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -1804,8 +2048,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#c3c6c7",
-                      "fontSize": 16,
+                      "fontFamily": "System",
+                      "fontSize": 15,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.24,
+                      "lineHeight": 20,
                     }
                   }
                 >
@@ -1816,9 +2065,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#5B6267",
-                      "fontSize": 18,
-                      "fontWeight": "bold",
+                      "backgroundColor": "transparent",
+                      "color": "#4B5358",
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -1865,8 +2118,13 @@ exports[`Dashboard component Renders correctly 1`] = `
               <Text
                 style={
                   Object {
+                    "backgroundColor": "transparent",
                     "color": "#FFFFFF",
-                    "fontSize": 35,
+                    "fontFamily": "System",
+                    "fontSize": 28,
+                    "fontWeight": "400",
+                    "letterSpacing": 0.355469,
+                    "lineHeight": 34,
                   }
                 }
               >
@@ -1887,8 +2145,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#5B6267",
-                      "fontSize": 20,
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -1897,8 +2160,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#c3c6c7",
-                      "fontSize": 16,
+                      "fontFamily": "System",
+                      "fontSize": 15,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.24,
+                      "lineHeight": 20,
                     }
                   }
                 >
@@ -1909,9 +2177,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#5B6267",
-                      "fontSize": 18,
-                      "fontWeight": "bold",
+                      "backgroundColor": "transparent",
+                      "color": "#4B5358",
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -1958,8 +2230,13 @@ exports[`Dashboard component Renders correctly 1`] = `
               <Text
                 style={
                   Object {
+                    "backgroundColor": "transparent",
                     "color": "#FFFFFF",
-                    "fontSize": 35,
+                    "fontFamily": "System",
+                    "fontSize": 28,
+                    "fontWeight": "400",
+                    "letterSpacing": 0.355469,
+                    "lineHeight": 34,
                   }
                 }
               >
@@ -1980,8 +2257,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#5B6267",
-                      "fontSize": 20,
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -1990,8 +2272,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#c3c6c7",
-                      "fontSize": 16,
+                      "fontFamily": "System",
+                      "fontSize": 15,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.24,
+                      "lineHeight": 20,
                     }
                   }
                 >
@@ -2002,9 +2289,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#5B6267",
-                      "fontSize": 18,
-                      "fontWeight": "bold",
+                      "backgroundColor": "transparent",
+                      "color": "#4B5358",
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -2045,7 +2336,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                     "fontSize": 16,
                   },
                   Object {
+                    "backgroundColor": "transparent",
                     "color": "#5B6267",
+                    "fontFamily": "System",
+                    "fontSize": 15,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.24,
+                    "lineHeight": 20,
                     "textDecorationLine": "underline",
                   },
                 ]
@@ -2111,7 +2408,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                   "fontSize": 16,
                 },
                 Object {
+                  "backgroundColor": "transparent",
                   "color": "#5B6267",
+                  "fontFamily": "System",
+                  "fontSize": 17,
+                  "fontWeight": "600",
+                  "letterSpacing": -0.408,
+                  "lineHeight": 22,
                 },
               ]
             }
@@ -2157,8 +2460,13 @@ exports[`Dashboard component Renders correctly 1`] = `
               <Text
                 style={
                   Object {
+                    "backgroundColor": "transparent",
                     "color": "#FFFFFF",
-                    "fontSize": 35,
+                    "fontFamily": "System",
+                    "fontSize": 28,
+                    "fontWeight": "400",
+                    "letterSpacing": 0.355469,
+                    "lineHeight": 34,
                   }
                 }
               >
@@ -2179,8 +2487,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#5B6267",
-                      "fontSize": 20,
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -2189,8 +2502,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#c3c6c7",
-                      "fontSize": 16,
+                      "fontFamily": "System",
+                      "fontSize": 15,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.24,
+                      "lineHeight": 20,
                     }
                   }
                 >
@@ -2201,9 +2519,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#5B6267",
-                      "fontSize": 18,
-                      "fontWeight": "bold",
+                      "backgroundColor": "transparent",
+                      "color": "#4B5358",
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -2250,8 +2572,13 @@ exports[`Dashboard component Renders correctly 1`] = `
               <Text
                 style={
                   Object {
+                    "backgroundColor": "transparent",
                     "color": "#FFFFFF",
-                    "fontSize": 35,
+                    "fontFamily": "System",
+                    "fontSize": 28,
+                    "fontWeight": "400",
+                    "letterSpacing": 0.355469,
+                    "lineHeight": 34,
                   }
                 }
               >
@@ -2272,8 +2599,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#5B6267",
-                      "fontSize": 20,
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -2282,8 +2614,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#c3c6c7",
-                      "fontSize": 16,
+                      "fontFamily": "System",
+                      "fontSize": 15,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.24,
+                      "lineHeight": 20,
                     }
                   }
                 >
@@ -2294,9 +2631,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#5B6267",
-                      "fontSize": 18,
-                      "fontWeight": "bold",
+                      "backgroundColor": "transparent",
+                      "color": "#4B5358",
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -2343,8 +2684,13 @@ exports[`Dashboard component Renders correctly 1`] = `
               <Text
                 style={
                   Object {
+                    "backgroundColor": "transparent",
                     "color": "#FFFFFF",
-                    "fontSize": 35,
+                    "fontFamily": "System",
+                    "fontSize": 28,
+                    "fontWeight": "400",
+                    "letterSpacing": 0.355469,
+                    "lineHeight": 34,
                   }
                 }
               >
@@ -2365,8 +2711,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#5B6267",
-                      "fontSize": 20,
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -2375,8 +2726,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
+                      "backgroundColor": "transparent",
                       "color": "#c3c6c7",
-                      "fontSize": 16,
+                      "fontFamily": "System",
+                      "fontSize": 15,
+                      "fontWeight": "400",
+                      "letterSpacing": -0.24,
+                      "lineHeight": 20,
                     }
                   }
                 >
@@ -2387,9 +2743,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                 <Text
                   style={
                     Object {
-                      "color": "#5B6267",
-                      "fontSize": 18,
-                      "fontWeight": "bold",
+                      "backgroundColor": "transparent",
+                      "color": "#4B5358",
+                      "fontFamily": "System",
+                      "fontSize": 17,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.408,
+                      "lineHeight": 22,
                     }
                   }
                 >
@@ -2430,7 +2790,13 @@ exports[`Dashboard component Renders correctly 1`] = `
                     "fontSize": 16,
                   },
                   Object {
+                    "backgroundColor": "transparent",
                     "color": "#5B6267",
+                    "fontFamily": "System",
+                    "fontSize": 15,
+                    "fontWeight": "400",
+                    "letterSpacing": -0.24,
+                    "lineHeight": 20,
                     "textDecorationLine": "underline",
                   },
                 ]

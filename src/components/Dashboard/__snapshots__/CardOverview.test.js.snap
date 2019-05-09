@@ -55,7 +55,13 @@ exports[`CardOverview component Renders correctly 1`] = `
             "fontSize": 16,
           },
           Object {
-            "color": "#5B6267",
+            "backgroundColor": "transparent",
+            "color": "#4B5358",
+            "fontFamily": "System",
+            "fontSize": 17,
+            "fontWeight": "600",
+            "letterSpacing": -0.408,
+            "lineHeight": 22,
           },
         ]
       }
@@ -110,8 +116,13 @@ exports[`CardOverview component Renders correctly 1`] = `
                 "fontSize": 16,
               },
               Object {
+                "backgroundColor": "transparent",
                 "color": "#5B6267",
-                "fontSize": 15,
+                "fontFamily": "System",
+                "fontSize": 17,
+                "fontWeight": "400",
+                "letterSpacing": -0.408,
+                "lineHeight": 22,
                 "marginBottom": 5,
               },
             ]
@@ -129,9 +140,13 @@ exports[`CardOverview component Renders correctly 1`] = `
                 "fontSize": 16,
               },
               Object {
-                "color": "#5B6267",
+                "backgroundColor": "transparent",
+                "color": "#4B5358",
+                "fontFamily": "System",
                 "fontSize": 20,
-                "fontWeight": "bold",
+                "fontWeight": "400",
+                "letterSpacing": 0.361328,
+                "lineHeight": 25,
               },
             ]
           }
@@ -158,8 +173,13 @@ exports[`CardOverview component Renders correctly 1`] = `
                 "fontSize": 16,
               },
               Object {
+                "backgroundColor": "transparent",
                 "color": "#5B6267",
-                "fontSize": 15,
+                "fontFamily": "System",
+                "fontSize": 17,
+                "fontWeight": "400",
+                "letterSpacing": -0.408,
+                "lineHeight": 22,
                 "marginBottom": 5,
               },
             ]
@@ -177,9 +197,13 @@ exports[`CardOverview component Renders correctly 1`] = `
                 "fontSize": 16,
               },
               Object {
-                "color": "#5B6267",
+                "backgroundColor": "transparent",
+                "color": "#4B5358",
+                "fontFamily": "System",
                 "fontSize": 20,
-                "fontWeight": "bold",
+                "fontWeight": "400",
+                "letterSpacing": 0.361328,
+                "lineHeight": 25,
               },
             ]
           }
@@ -233,7 +257,7 @@ exports[`CardOverview component Renders correctly 1`] = `
             style={
               Object {
                 "color": "transparent",
-                "fontSize": undefined,
+                "fontSize": 11,
               }
             }
           >
@@ -284,7 +308,7 @@ exports[`CardOverview component Renders correctly 1`] = `
               style={
                 Object {
                   "color": "transparent",
-                  "fontSize": undefined,
+                  "fontSize": 11,
                 }
               }
             >

@@ -54,7 +54,7 @@ exports[`Renders correctly 1`] = `
                 "fontSize": 30,
               },
               Object {
-                "color": "#5B6267",
+                "color": "#c3c6c7",
               },
             ],
             Object {
