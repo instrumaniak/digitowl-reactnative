@@ -13,6 +13,7 @@ import {
   Button
 } from 'native-base'
 
+import { human } from 'react-native-typography'
 import { colors } from '../../config'
 
 import CircleButton from '../CircleButton'
@@ -92,8 +93,8 @@ const styles = StyleSheet.create({
     flex: 1
   },
   cardHeaderText: {
-    //fontSize: 20,
-    color: colors.grey1
+    ...human.headlineObject,
+    color: colors.grey2
   },
   btnContainer: {
     flex: 1,
@@ -106,7 +107,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center'
   },
   btnText: {
-    color: colors.grey2
+    ...human.bodyObject,
+    color: colors.grey1
   },
   overviewButton: {
     flex: 1,
@@ -118,14 +120,13 @@ const styles = StyleSheet.create({
     borderRadius: 5
   },
   obtnHeading: {
+    ...human.subheadObject,
     color: colors.grey1,
-    marginBottom: 5,
-    fontSize: 15
+    marginBottom: 5
   },
   obtnValue: {
-    color: colors.grey1,
-    fontSize: 20,
-    fontWeight: 'bold'
+    ...human.title3Object,
+    color: colors.grey2
   }
 })
 

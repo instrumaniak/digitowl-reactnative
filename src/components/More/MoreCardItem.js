@@ -54,11 +54,10 @@ const styles = StyleSheet.create({
   },
   iconText: {
     color: colors.white,
-    //fontWeight: 'bold',
     fontSize: 35
   },
   icon: {
-    color: colors.grey1
+    color: colors.grey
   },
   dataContainer: {
     flex: 1,
@@ -72,18 +71,10 @@ const styles = StyleSheet.create({
   title: {
     ...human.bodyObject,
     color: colors.grey1,
-    //fontSize: 18,
-    //fontWeight: 'bold'
   },
   description: {
     ...human.subheadObject,
-    color: colors.grey,
-    fontSize: 16
-  },
-  value: {
-    color: colors.grey1,
-    fontSize: 18,
-    fontWeight: 'bold'
+    color: colors.grey
   }
 })
 

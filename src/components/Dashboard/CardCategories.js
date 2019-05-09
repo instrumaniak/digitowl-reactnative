@@ -13,6 +13,7 @@ import {
   Text
 } from 'native-base'
 
+import { human } from 'react-native-typography'
 import { colors } from '../../config'
 import CategoryItem from './CategoryItem'
 
@@ -43,16 +44,16 @@ const PieLabels = ({ slices }) => {
         <Circle
           cx={ labelCentroid[0] }
           cy={ labelCentroid[1] }
-          r={ 15 }
-          fill={ colors.grey }
+          r={ 20 }
+          fill={ colors.whiteSmoke }
         />
         <SText
           x={ labelCentroid[0] - 7 }
           y={ labelCentroid[1] + 5 }
-
-          stroke={colors.grey3}
+          style={{ ...human.caption2Object }}
+          stroke={ colors.grey2 }
         >
-          { data.value}
+          { data.value} %
         </SText>
       </G>
     )
@@ -140,6 +141,7 @@ class CardCategories extends PureComponent {
             alignItems: 'center'
           }}>
             <Text style={{
+              ...human.subheadObject,
               color: colors.grey1,
               textDecorationLine: 'underline'
             }}>All Categories (7)</Text>
@@ -152,7 +154,8 @@ class CardCategories extends PureComponent {
 
 const styles = StyleSheet.create({
   cardHeaderText: {
-    color: colors.grey1
+    ...human.headlineObject,
+    color: colors.grey2
   },
   btnContainer: {
     flex: 1,
@@ -164,9 +167,6 @@ const styles = StyleSheet.create({
     marginHorizontal: 5,
     justifyContent: 'center'
   },
-  btnText: {
-    //color: colors.greenDark
-  },
   overviewButton: {
     flex: 1,
     alignItems: 'center',
@@ -177,14 +177,13 @@ const styles = StyleSheet.create({
     borderRadius: 5
   },
   obtnHeading: {
+    ...human.bodyObject,
     color: colors.grey1,
-    marginBottom: 5,
-    fontSize: 15
+    marginBottom: 5
   },
   obtnValue: {
-    color: colors.grey1,
-    fontSize: 20,
-    fontWeight: 'bold'
+    ...human.title3Object,
+    color: colors.grey2
   }
 })
 

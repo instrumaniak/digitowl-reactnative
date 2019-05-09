@@ -6,6 +6,7 @@ import {
   StyleSheet
 } from 'react-native'
 
+import { human } from 'react-native-typography'
 import { colors } from '../../config'
 
 const CategoryItem = ({
@@ -51,9 +52,8 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   iconText: {
+    ...human.title1Object,
     color: colors.white,
-    //fontWeight: 'bold',
-    fontSize: 35
   },
   dataContainer: {
     flex: 1,
@@ -64,18 +64,16 @@ const styles = StyleSheet.create({
 
   // typography
   title: {
-    color: colors.grey1,
-    fontSize: 20,
-    //fontWeight: 'bold'
+    ...human.bodyObject,
+    color: colors.grey1
   },
   description: {
-    color: colors.grey,
-    fontSize: 16
+    ...human.subheadObject,
+    color: colors.grey
   },
   value: {
-    color: colors.grey1,
-    fontSize: 18,
-    fontWeight: 'bold'
+    ...human.headlineObject,
+    color: colors.grey2
   }
 })
 

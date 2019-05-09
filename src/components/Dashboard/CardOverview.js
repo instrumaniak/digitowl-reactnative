@@ -18,8 +18,9 @@ import {
   Grid
 } from 'react-native-svg-charts'
 
+import { human } from 'react-native-typography'
 import { Circle } from 'react-native-svg'
-import { colors, themeColors } from '../../config'
+import { colors } from '../../config'
 
 const data = [ 50, 10, 40, 95, -4, -24, 85, 91, 35, 53, -53, 24, 50, -20, -80 ]
 
@@ -64,7 +65,10 @@ class CardOverview extends PureComponent {
               data={data}
               style={{ marginBottom: 30, marginRight: 10 }}
               contentInset={{ top: 10, bottom: 10 }}
-              svg={{ fill: colors.grey1 }}
+              svg={{
+                ...human.caption2Object,
+                fill: colors.grey1,
+              }}
             />
             <View style={{ flex: 1}}>
               <LineChart
@@ -81,7 +85,7 @@ class CardOverview extends PureComponent {
                 data={data}
                 contentInset={{ left: 10, right: 10 }}
                 formatLabel={(value, index) => index}
-                svg={{ fill: colors.grey1 }}
+                svg={{ ...human.caption2Object, fill: colors.grey1 }}
               />
             </View>
           </View>
@@ -93,7 +97,8 @@ class CardOverview extends PureComponent {
 
 const styles = StyleSheet.create({
   cardHeaderText: {
-    color: colors.grey1
+    ...human.headlineObject,
+    color: colors.grey2
   },
   btnContainer: {
     flex: 1,
@@ -105,9 +110,6 @@ const styles = StyleSheet.create({
     marginHorizontal: 5,
     justifyContent: 'center'
   },
-  btnText: {
-    color: themeColors.brand
-  },
   overviewButton: {
     flex: 1,
     alignItems: 'center',
@@ -118,14 +120,13 @@ const styles = StyleSheet.create({
     borderRadius: 5
   },
   obtnHeading: {
+    ...human.bodyObject,
     color: colors.grey1,
     marginBottom: 5,
-    fontSize: 15
   },
   obtnValue: {
-    color: colors.grey1,
-    fontSize: 20,
-    fontWeight: 'bold'
+    ...human.title3Object,
+    color: colors.grey2,
   }
 })
 

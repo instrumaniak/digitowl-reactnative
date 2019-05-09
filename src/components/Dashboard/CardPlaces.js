@@ -11,6 +11,7 @@ import {
   Text
 } from 'native-base'
 
+import { human } from 'react-native-typography'
 import { colors } from '../../config'
 import CategoryItem from './CategoryItem'
 
@@ -55,6 +56,7 @@ class CardPlaces extends PureComponent {
             alignItems: 'center'
           }}>
             <Text style={{
+              ...human.subheadObject,
               color: colors.grey1,
               textDecorationLine: 'underline'
             }}>All places (9)</Text>
@@ -67,39 +69,8 @@ class CardPlaces extends PureComponent {
 
 const styles = StyleSheet.create({
   cardHeaderText: {
+    ...human.headlineObject,
     color: colors.grey1
-  },
-  btnContainer: {
-    flex: 1,
-    flexDirection: 'row'
-  },
-  btnLight: {
-    backgroundColor: 'white',
-    flex: 1,
-    marginHorizontal: 5,
-    justifyContent: 'center'
-  },
-  btnText: {
-    //color: colors.greenDark
-  },
-  overviewButton: {
-    flex: 1,
-    alignItems: 'center',
-    padding: 5
-  },
-  oBtnActive: {
-    backgroundColor: 'rgba(0,0,0,0.05)',
-    borderRadius: 5
-  },
-  obtnHeading: {
-    color: colors.grey1,
-    marginBottom: 5,
-    fontSize: 15
-  },
-  obtnValue: {
-    color: colors.grey1,
-    fontSize: 20,
-    fontWeight: 'bold'
   }
 })
 

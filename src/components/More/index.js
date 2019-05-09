@@ -105,7 +105,7 @@ class More extends PureComponent {
             </CardItem>
           </Card>
           <View style={{ paddingVertical: 10, paddingHorizontal: 5 }}>
-            <Button block light>
+            <Button block style={{ backgroundColor: colors.white }}>
               <NBText style={{ color: colors.red }}>Log Out</NBText>
             </Button>
           </View>
@@ -122,8 +122,6 @@ const styles = StyleSheet.create({
     flex: 1
   },
   cardHeaderText: {
-    // fontSize: 16,
-    // fontWeight: 'bold'
     ...human.headline,
     color: colors.grey2
   }
