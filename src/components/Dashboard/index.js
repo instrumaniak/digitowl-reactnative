@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { PureComponent } from 'react'
 
 import {
   View,
@@ -22,70 +22,75 @@ import CardCategories from './CardCategories'
 import CardHashtags from './CardHashtags'
 import CardPlaces from './CardPlaces'
 
-const Dashboard = () => (
-  <View style={styles.container}>
-    <ScrollView>
+class Dashboard extends PureComponent {
+  render() {
+    return (
+      <View style={styles.container}>
+        <ScrollView>
 
-      {/* Wallets & Account */}
-      <Card style={{ elevation: 2 }}>
-        <CardItem>
-          <Text style={styles.cardHeaderText}>Wallets & Accounts</Text>
-        </CardItem>
-        <CardItem>
-          <View style={styles.btnContainer}>
-            <Button style={styles.btnLight} light>
-              <Text style={styles.btnText} uppercase={false}>Add Cash Wallet </Text>
-            </Button>
-            <Button style={styles.btnLight} light>
-              <Text style={styles.btnText} uppercase={false}>Connect Bank </Text>
-            </Button>
-          </View>
-        </CardItem>
-      </Card>
+          {/* Wallets & Account */}
+          <Card style={{ elevation: 2 }}>
+            <CardItem>
+              <Text style={styles.cardHeaderText}>Wallets & Accounts</Text>
+            </CardItem>
+            <CardItem>
+              <View style={styles.btnContainer}>
+                <Button style={styles.btnLight} light>
+                  <Text style={styles.btnText} uppercase={false}>Add Cash Wallet </Text>
+                </Button>
+                <Button style={styles.btnLight} light>
+                  <Text style={styles.btnText} uppercase={false}>Connect Bank </Text>
+                </Button>
+              </View>
+            </CardItem>
+          </Card>
 
-      <CardOverview />
+          <CardOverview />
 
-      <Card style={{ elevation: 2 }}>
-        <CardItem>
-          <View style={styles.btnContainer}>
-            <View style={styles.overviewButton}>
-              <Text style={styles.obtnHeading}>Average Daily Expense</Text>
-              <Text style={styles.obtnValue}>- 28.47 USD</Text>
-            </View>
-            <View style={styles.overviewButton}>
-              <Text style={styles.obtnHeading}>Last Month Comparison</Text>
-              <Text style={styles.obtnValue}>+22%</Text>
-            </View>
-          </View>
-        </CardItem>
-      </Card>
+          <Card style={{ elevation: 2 }}>
+            <CardItem>
+              <View style={styles.btnContainer}>
+                <View style={styles.overviewButton}>
+                  <Text style={styles.obtnHeading}>Average Daily Expense</Text>
+                  <Text style={styles.obtnValue}>- 28.47 USD</Text>
+                </View>
+                <View style={styles.overviewButton}>
+                  <Text style={styles.obtnHeading}>Last Month Comparison</Text>
+                  <Text style={styles.obtnValue}>+22%</Text>
+                </View>
+              </View>
+            </CardItem>
+          </Card>
 
-      <CardCategories />
+          <CardCategories />
 
-      <Card style={{ elevation: 2 }}>
-        <CardItem>
-          <Text style={styles.cardHeaderText}>Transfers</Text>
-        </CardItem>
-        <CardItem>
-          <View style={styles.btnContainer}>
-            <View style={styles.overviewButton}>
-              <Text style={styles.obtnHeading}>Outgoing</Text>
-              <Text style={styles.obtnValue}>- 125 USD</Text>
-            </View>
-            <View style={styles.overviewButton}>
-              <Text style={styles.obtnHeading}>Incoming</Text>
-              <Text style={styles.obtnValue}>+1 200 USD</Text>
-            </View>
-          </View>
-        </CardItem>
-      </Card>
+          <Card style={{ elevation: 2 }}>
+            <CardItem>
+              <Text style={styles.cardHeaderText}>Transfers</Text>
+            </CardItem>
+            <CardItem>
+              <View style={styles.btnContainer}>
+                <View style={styles.overviewButton}>
+                  <Text style={styles.obtnHeading}>Outgoing</Text>
+                  <Text style={styles.obtnValue}>- 125 USD</Text>
+                </View>
+                <View style={styles.overviewButton}>
+                  <Text style={styles.obtnHeading}>Incoming</Text>
+                  <Text style={styles.obtnValue}>+1 200 USD</Text>
+                </View>
+              </View>
+            </CardItem>
+          </Card>
 
-      <CardHashtags />
-      <CardPlaces />
-    </ScrollView>
-    <CircleButton />
-  </View>
-)
+          <CardHashtags />
+          <CardPlaces />
+        </ScrollView>
+        <CircleButton />
+      </View>
+    )
+  }
+}
+
 
 const styles = StyleSheet.create({
   container: {

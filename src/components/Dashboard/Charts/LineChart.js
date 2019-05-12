@@ -44,7 +44,7 @@ class _LineChart extends PureComponent {
         <View style={{ flex: 1}}>
           <LineChart
             data={data}
-            style={{ height: 200 }}
+            style={{ height: 250 }}
             svg={{stroke: colors.grey1, strokeOpacity: 0.6, strokeWidth: 3 }}
             contentInset={{ top: 10, bottom: 10 }}
           >

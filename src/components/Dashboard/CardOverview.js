@@ -13,7 +13,9 @@ import {
 
 import { human } from 'react-native-typography'
 import { colors } from '../../config'
+
 import LineChart from './Charts/LineChart'
+import BarChart from './Charts/BarChart'
 
 class CardOverview extends PureComponent {
   state = {
@@ -55,7 +57,7 @@ class CardOverview extends PureComponent {
 
         {/* Charts */}
         <CardItem>
-          { activeChart == 'line' ? <LineChart /> : <View /> }
+          { activeChart == 'line' ? <LineChart /> : <BarChart /> }
         </CardItem>
       </Card>
     )

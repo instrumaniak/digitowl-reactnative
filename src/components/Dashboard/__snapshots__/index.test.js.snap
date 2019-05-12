@@ -156,10 +156,10 @@ exports[`Dashboard component Renders correctly 1`] = `
                       "backgroundColor": "transparent",
                       "color": "#5B6267",
                       "fontFamily": "System",
-                      "fontSize": 17,
+                      "fontSize": 15,
                       "fontWeight": "400",
-                      "letterSpacing": -0.408,
-                      "lineHeight": 22,
+                      "letterSpacing": -0.24,
+                      "lineHeight": 20,
                     },
                   ]
                 }
@@ -222,10 +222,10 @@ exports[`Dashboard component Renders correctly 1`] = `
                       "backgroundColor": "transparent",
                       "color": "#5B6267",
                       "fontFamily": "System",
-                      "fontSize": 17,
+                      "fontSize": 15,
                       "fontWeight": "400",
-                      "letterSpacing": -0.408,
-                      "lineHeight": 22,
+                      "letterSpacing": -0.24,
+                      "lineHeight": 20,
                     },
                   ]
                 }
@@ -329,124 +329,142 @@ exports[`Dashboard component Renders correctly 1`] = `
             }
           >
             <View
-              style={
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "flex": 1,
-                    "padding": 5,
-                  },
-                  Object {
-                    "backgroundColor": "rgba(0,0,0,0.05)",
-                    "borderRadius": 5,
-                  },
-                ]
-              }
-            >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "color": "#000",
-                      "fontFamily": "System",
-                      "fontSize": 16,
-                    },
-                    Object {
-                      "backgroundColor": "transparent",
-                      "color": "#5B6267",
-                      "fontFamily": "System",
-                      "fontSize": 17,
-                      "fontWeight": "400",
-                      "letterSpacing": -0.408,
-                      "lineHeight": 22,
-                      "marginBottom": 5,
-                    },
-                  ]
-                }
-                uppercase={false}
-              >
-                Total Wealth
-              </Text>
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "color": "#000",
-                      "fontFamily": "System",
-                      "fontSize": 16,
-                    },
-                    Object {
-                      "backgroundColor": "transparent",
-                      "color": "#4B5358",
-                      "fontFamily": "System",
-                      "fontSize": 20,
-                      "fontWeight": "400",
-                      "letterSpacing": 0.361328,
-                      "lineHeight": 25,
-                    },
-                  ]
-                }
-                uppercase={false}
-              >
-                +34 628 USD
-              </Text>
-            </View>
-            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
               style={
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "rgba(0,0,0,0.05)",
+                  "borderRadius": 5,
                   "flex": 1,
+                  "opacity": 1,
                   "padding": 5,
                 }
               }
             >
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "color": "#000",
-                      "fontFamily": "System",
-                      "fontSize": 16,
-                    },
-                    Object {
-                      "backgroundColor": "transparent",
-                      "color": "#5B6267",
-                      "fontFamily": "System",
-                      "fontSize": 17,
-                      "fontWeight": "400",
-                      "letterSpacing": -0.408,
-                      "lineHeight": 22,
-                      "marginBottom": 5,
-                    },
-                  ]
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontFamily": "System",
+                        "fontSize": 16,
+                      },
+                      Object {
+                        "backgroundColor": "transparent",
+                        "color": "#5B6267",
+                        "fontFamily": "System",
+                        "fontSize": 17,
+                        "fontWeight": "400",
+                        "letterSpacing": -0.408,
+                        "lineHeight": 22,
+                        "marginBottom": 5,
+                      },
+                    ]
+                  }
+                  uppercase={false}
+                >
+                  Total Wealth
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontFamily": "System",
+                        "fontSize": 16,
+                      },
+                      Object {
+                        "backgroundColor": "transparent",
+                        "color": "#4B5358",
+                        "fontFamily": "System",
+                        "fontSize": 20,
+                        "fontWeight": "400",
+                        "letterSpacing": 0.361328,
+                        "lineHeight": 25,
+                      },
+                    ]
+                  }
+                  uppercase={false}
+                >
+                  +34 628 USD
+                </Text>
+              </View>
+            </View>
+            <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "opacity": 1,
+                  "padding": 5,
                 }
-                uppercase={false}
-              >
-                Monthly Cash Flow
-              </Text>
-              <Text
-                style={
-                  Array [
-                    Object {
-                      "color": "#000",
-                      "fontFamily": "System",
-                      "fontSize": 16,
-                    },
-                    Object {
-                      "backgroundColor": "transparent",
-                      "color": "#4B5358",
-                      "fontFamily": "System",
-                      "fontSize": 20,
-                      "fontWeight": "400",
-                      "letterSpacing": 0.361328,
-                      "lineHeight": 25,
-                    },
-                  ]
-                }
-                uppercase={false}
-              >
-                +257 USD
-              </Text>
+              }
+            >
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontFamily": "System",
+                        "fontSize": 16,
+                      },
+                      Object {
+                        "backgroundColor": "transparent",
+                        "color": "#5B6267",
+                        "fontFamily": "System",
+                        "fontSize": 17,
+                        "fontWeight": "400",
+                        "letterSpacing": -0.408,
+                        "lineHeight": 22,
+                        "marginBottom": 5,
+                      },
+                    ]
+                  }
+                  uppercase={false}
+                >
+                  Monthly Cash Flow
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontFamily": "System",
+                        "fontSize": 16,
+                      },
+                      Object {
+                        "backgroundColor": "transparent",
+                        "color": "#4B5358",
+                        "fontFamily": "System",
+                        "fontSize": 20,
+                        "fontWeight": "400",
+                        "letterSpacing": 0.361328,
+                        "lineHeight": 25,
+                      },
+                    ]
+                  }
+                  uppercase={false}
+                >
+                  +257 USD
+                </Text>
+              </View>
             </View>
           </View>
         </View>
@@ -511,7 +529,7 @@ exports[`Dashboard component Renders correctly 1`] = `
               <View
                 style={
                   Object {
-                    "height": 200,
+                    "height": 250,
                   }
                 }
               >
