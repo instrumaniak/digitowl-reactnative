@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center'
   },
   btnText: {
-    ...human.bodyObject,
+    ...human.subheadObject,
     color: colors.grey1
   },
   overviewButton: {

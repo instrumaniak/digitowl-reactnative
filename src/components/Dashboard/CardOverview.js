@@ -3,7 +3,7 @@
  */
 
 import React, { PureComponent } from 'react'
-import { View, StyleSheet } from 'react-native'
+import { View, StyleSheet, TouchableOpacity } from 'react-native'
 
 import {
   Card,
@@ -11,35 +11,22 @@ import {
   Text
 } from 'native-base'
 
-import {
-  LineChart,
-  XAxis,
-  YAxis,
-  Grid
-} from 'react-native-svg-charts'
-
 import { human } from 'react-native-typography'
-import { Circle } from 'react-native-svg'
 import { colors } from '../../config'
-
-const data = [ 50, 10, 40, 95, -4, -24, 85, 91, 35, 53, -53, 24, 50, -20, -80 ]
-
-const Decorator = ({ x, y, data }) => {
-  return data.map(( value, index) => (
-    <Circle
-      key={index}
-      cx={ x(index) }
-      cy={ y(value)}
-      r={ 4 }
-      stroke={ colors.grey }
-      strokeWidth={3}
-      fill={colors.whiteSmoke}
-    />
-  ))
-}
+import LineChart from './Charts/LineChart'
 
 class CardOverview extends PureComponent {
+  state = {
+    activeChart: 'line' // line / bar
+  }
+  toogleActiveChart = (src) => {
+    if( src == 'line' || src == 'bar') {
+      this.setState({ activeChart: src })
+    }
+  }
   render() {
+    const { activeChart } = this.state
+
     return (
       <Card style={{ elevation: 2 }}>
         <CardItem>
@@ -47,48 +34,28 @@ class CardOverview extends PureComponent {
         </CardItem>
         <CardItem>
           <View style={styles.btnContainer}>
-            <View style={[styles.overviewButton, styles.oBtnActive]}>
-              <Text style={styles.obtnHeading}>Total Wealth</Text>
-              <Text style={styles.obtnValue}>+34 628 USD</Text>
-            </View>
-            <View style={styles.overviewButton}>
-              <Text style={styles.obtnHeading}>Monthly Cash Flow</Text>
-              <Text style={styles.obtnValue}>+257 USD</Text>
-            </View>
+            <TouchableOpacity
+              onPress={() => this.toogleActiveChart('line')}
+              style={[ styles.overviewButton, activeChart == 'line' ? styles.oBtnActive : {}]}>
+              <View>
+                <Text style={styles.obtnHeading}>Total Wealth</Text>
+                <Text style={styles.obtnValue}>+34 628 USD</Text>
+              </View>
+            </TouchableOpacity>
+            <TouchableOpacity
+              onPress={() => this.toogleActiveChart('bar')}
+              style={[ styles.overviewButton, activeChart == 'bar' ? styles.oBtnActive : {}]}>
+              <View>
+                <Text style={styles.obtnHeading}>Monthly Cash Flow</Text>
+                <Text style={styles.obtnValue}>+257 USD</Text>
+              </View>
+            </TouchableOpacity>
           </View>
         </CardItem>
 
         {/* Charts */}
         <CardItem>
-          <View style={{ flexDirection: 'row'}}>
-            <YAxis
-              data={data}
-              style={{ marginBottom: 30, marginRight: 10 }}
-              contentInset={{ top: 10, bottom: 10 }}
-              svg={{
-                ...human.caption2Object,
-                fill: colors.grey1,
-              }}
-            />
-            <View style={{ flex: 1}}>
-              <LineChart
-                data={data}
-                style={{ height: 200 }}
-                svg={{stroke: colors.grey1, strokeOpacity: 0.6, strokeWidth: 3 }}
-                contentInset={{ top: 10, bottom: 10 }}
-              >
-                <Decorator />
-                <Grid svg={{strokeOpacity: 0.5, stroke: colors.grey}}/>
-              </LineChart>
-              <XAxis
-                style={{ marginHorizontal: -10, height: 30}}
-                data={data}
-                contentInset={{ left: 10, right: 10 }}
-                formatLabel={(value, index) => index}
-                svg={{ ...human.caption2Object, fill: colors.grey1 }}
-              />
-            </View>
-          </View>
+          { activeChart == 'line' ? <LineChart /> : <View /> }
         </CardItem>
       </Card>
     )
