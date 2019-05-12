@@ -11,6 +11,7 @@ import {
   CardItem
 } from 'native-base'
 
+import { human } from 'react-native-typography'
 import { colors } from '../../config'
 import TimelineCard from './TimelineCard'
 
@@ -77,14 +78,12 @@ const styles = StyleSheet.create({
     borderRadius: 5
   },
   obtnHeading: {
-    color: colors.grey1,
-    marginBottom: 5,
-    fontSize: 15
+    ...human.subheadObject,
+    color: colors.grey1
   },
   obtnValue: {
-    color: colors.grey1,
-    fontSize: 20,
-    fontWeight: 'bold'
+    ...human.title3Object,
+    color: colors.grey2
   }
 })
 

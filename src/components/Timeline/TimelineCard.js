@@ -5,7 +5,10 @@ import {
   CardItem
 } from 'native-base'
 
-import TimelineCardItem from './TimelineCardItem'
+import { human } from 'react-native-typography'
+import { colors } from '../../config'
+//import TimelineCardItem from './TimelineCardItem'
+import CategoryItem from '../Dashboard/CategoryItem'
 
 class TimelineCard extends PureComponent {
   render() {
@@ -18,7 +21,7 @@ class TimelineCard extends PureComponent {
           </View>
         </CardItem>
         <CardItem>
-          <TimelineCardItem
+          <CategoryItem
             iconText="$"
             title="Extra Income"
             value="+ 2000 USD"
@@ -26,7 +29,7 @@ class TimelineCard extends PureComponent {
           />
         </CardItem>
         <CardItem>
-          <TimelineCardItem
+          <CategoryItem
             iconText="$"
             title="Other"
             value="- 200 USD"
@@ -45,8 +48,10 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between'
   },
   headerText: {
-    fontSize: 16,
-    fontWeight: 'bold'
+    ...human.headlineObject,
+    color: colors.grey2
+    // fontSize: 16,
+    // fontWeight: 'bold'
   }
 })
 
