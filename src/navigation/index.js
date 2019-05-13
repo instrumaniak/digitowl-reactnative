@@ -1,26 +1,19 @@
 /**
- *   Navigation
+ *   Main Navigation
  */
-
-import React from 'react'
 
 import {
   createStackNavigator,
   createSwitchNavigator,
-  createBottomTabNavigator,
   createAppContainer
 } from 'react-navigation'
 
-import { Icon } from 'native-base'
-
+import { BottomTabStack } from './BottomTabStack'
 import Welcome from '../screens/Welcome'
 import Login from '../screens/Login'
-import Dashboard from '../screens/Dashboard'
-import Timeline from '../screens/Timeline'
-import Activity from '../screens/Activity'
-import More from '../screens/More'
 
-import { colors, themeColors } from '../config'
+
+import { themeColors } from '../config'
 
 // For performance
 import { useScreens } from 'react-native-screens'
@@ -39,70 +32,10 @@ const AuthStack = createStackNavigator({
   }
 })
 
-// Main screens with bottom tabs
-const bottomTabStack = createBottomTabNavigator({
-  Dashboard: {
-    screen: Dashboard,
-    navigationOptions: () => ({
-      tabBarIcon({ tintColor }){ //eslint-disable-line react/prop-types
-        return <Icon name='ios-stats' style={{color: tintColor}}/>
-      }
-    })
-  },
-  Timeline: {
-    screen: Timeline,
-    navigationOptions: () => ({
-      tabBarIcon({ tintColor }){ //eslint-disable-line react/prop-types
-        return <Icon name='md-list-box' style={{color: tintColor}}/>
-      }
-    })
-  },
-  Activity: {
-    screen: Activity,
-    navigationOptions: () => ({
-      tabBarIcon({ tintColor }){ //eslint-disable-line react/prop-types
-        return <Icon name='ios-notifications' style={{color: tintColor}}/>
-      }
-    })
-  },
-  More: {
-    screen: More,
-    navigationOptions: () => ({
-      tabBarIcon({ tintColor }){ //eslint-disable-line react/prop-types
-        return <Icon name='ios-more' style={{color: tintColor}}/>
-      }
-    })
-  }
-}, {
-  tabBarOptions: {
-    activeTintColor: themeColors.brandDarken,
-    //inactiveTintColor: colors.grey1,
-    //activeBackgroundColor: colors.whiteSmoke,
-    inactiveBackgroundColor: colors.whiteSmoke,
-    style: {
-      //backgroundColor: colors.white,
-      borderTopWidth: 1,
-      borderTopColor: '#eee',
-      //paddingTop: 5,
-      paddingBottom: 2
-    }
-  },
-  navigationOptions: ({ navigation }) => {
-    const { routeName } = navigation.state.routes[navigation.state.index]
 
-    return {
-      headerTitle: routeName,
-      headerTintColor: '#fff',
-      headerTitleStyle: {
-        fontWeight: 'normal'
-      },
-      header: null
-    }
-  }
-})
 
 const AppStack = createStackNavigator({
-  TabContainer: bottomTabStack
+  TabContainer: BottomTabStack
 }, {
   defaultNavigationOptions: {
     headerStyle: {
