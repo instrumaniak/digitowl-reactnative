@@ -3,7 +3,8 @@
  */
 
 import React from 'react'
-import { createBottomTabNavigator } from 'react-navigation'
+import { View, Text } from 'react-native'
+import { createBottomTabNavigator, createStackNavigator } from 'react-navigation'
 import { colors, themeColors } from '../config'
 import { Icon } from 'native-base'
 
@@ -11,12 +12,38 @@ import Dashboard from '../screens/Dashboard'
 import Timeline from '../screens/Timeline'
 import Activity from '../screens/Activity'
 import More from '../screens/More'
+import CreateNew from '../screens/CreateNew'
+
+
+const DashboardStack = createStackNavigator({
+  Dashboard: {
+    screen: Dashboard,
+    navigationOptions: {
+      header: null
+    }
+  },
+  Create: {
+    screen: CreateNew,
+    navigationOptions: {
+      title: 'Create new entry',
+      headerStyle: {
+        backgroundColor: themeColors.brand
+      },
+      headerTintColor: '#fff',
+      headerTitleStyle: {
+        fontWeight: 'normal'
+      }
+
+    }
+  }
+})
 
 // Main screens with bottom tabs
 export const BottomTabStack = createBottomTabNavigator({
-  Dashboard: {
-    screen: Dashboard,
+  DashboardStack: {
+    screen: DashboardStack,
     navigationOptions: () => ({
+      tabBarLabel: 'Dashboard',
       tabBarIcon({ tintColor }){ //eslint-disable-line react/prop-types
         return <Icon name='ios-stats' style={{color: tintColor}}/>
       }
@@ -25,6 +52,7 @@ export const BottomTabStack = createBottomTabNavigator({
   Timeline: {
     screen: Timeline,
     navigationOptions: () => ({
+      tabBarLabel: 'Timeline',
       tabBarIcon({ tintColor }){ //eslint-disable-line react/prop-types
         return <Icon name='md-list-box' style={{color: tintColor}}/>
       }
@@ -33,6 +61,7 @@ export const BottomTabStack = createBottomTabNavigator({
   Activity: {
     screen: Activity,
     navigationOptions: () => ({
+      tabBarLabel: 'Activity',
       tabBarIcon({ tintColor }){ //eslint-disable-line react/prop-types
         return <Icon name='ios-notifications' style={{color: tintColor}}/>
       }
@@ -41,6 +70,7 @@ export const BottomTabStack = createBottomTabNavigator({
   More: {
     screen: More,
     navigationOptions: () => ({
+      tabBarLabel: 'More',
       tabBarIcon({ tintColor }){ //eslint-disable-line react/prop-types
         return <Icon name='ios-more' style={{color: tintColor}}/>
       }
