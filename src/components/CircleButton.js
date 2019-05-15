@@ -11,14 +11,16 @@ import { Icon } from 'native-base'
 import { colors, themeColors } from '../config'
 
 const CircleButton = ({ navigation }) => (
-  <TouchableOpacity
-    style={ styles.container }
-    onPress={() => navigation.navigate('Create')}>
-      <Icon name='md-add' style={{
-        fontSize: 30,
-        color: colors.whiteSmoke
-      }} />
-  </TouchableOpacity>
+  <View>
+    <TouchableOpacity
+      style={ styles.container }
+      onPress={() => navigation.navigate('Create')}>
+        <Icon name='md-add' style={{
+          fontSize: 30,
+          color: colors.whiteSmoke
+        }} />
+    </TouchableOpacity>
+  </View>
 )
 
 const styles = StyleSheet.create({
