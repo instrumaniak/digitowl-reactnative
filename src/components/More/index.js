@@ -105,8 +105,8 @@ class More extends PureComponent {
             </CardItem>
           </Card>
           <View style={{ paddingVertical: 10, paddingHorizontal: 5 }}>
-            <Button block style={{ backgroundColor: colors.white }}>
-              <NBText style={{ color: colors.red }}>Log Out</NBText>
+            <Button block style={{ backgroundColor: colors.charcoal }}>
+              <NBText style={{ color: colors.grey1, fontWeight: 'bold' }}>Log Out</NBText>
             </Button>
           </View>
 

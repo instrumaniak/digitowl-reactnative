@@ -32,7 +32,7 @@ const Login = ({ navigation }) => {
   const type = navigation.getParam('type', '')
   const buttonText = type == 'register' ? 'Signup' : 'Login'
   return (
-    <Container>
+    <Container style={{ backgroundColor: themeColors.background }}>
       <Content padder>
         <View style={{paddingBottom: 0}}>
           <Form style={{ marginBottom: 20}}>
@@ -56,11 +56,11 @@ const Login = ({ navigation }) => {
             <Text style={styles.textOr}>or</Text>
             <View style={styles.dash} />
           </View>
-          <Button iconLeft light block>
+          <Button iconLeft light block style={{ backgroundColor: colors.charcoal }}>
             <Icon name='logo-facebook' style={styles.icons}/>
             <Text style={styles.iconsText} uppercase={false}>{buttonText} with Facebook</Text>
           </Button>
-          <Button block iconLeft light style={{ marginTop: 15 }}>
+          <Button block iconLeft light style={{ marginTop: 15, backgroundColor: colors.charcoal }}>
             <Icon name='logo-google' style={styles.icons}/>
             <Text style={styles.iconsText} uppercase={false}>  {buttonText} with Google   </Text>{/* Space for alignment */}
           </Button>

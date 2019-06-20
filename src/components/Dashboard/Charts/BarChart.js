@@ -9,7 +9,12 @@ const data = [ 40, 50, -10, 60, 90, -60]
 class _BarChart extends PureComponent {
   render() {
     return (
-      <View style={{ flexDirection: 'row' }}>
+      <View style={{
+        flexDirection: 'row',
+        backgroundColor: 'rgba(255,255,255,0.05)',
+        paddingHorizontal: 10,
+        borderRadius: 5
+      }}>
         <YAxis
           data={data}
           style={{ marginBottom: 30, marginRight: 5 }}
@@ -19,7 +24,7 @@ class _BarChart extends PureComponent {
             fill: colors.grey1,
           }}
         />
-        <View style={{ flex: 1 }}>
+        <View style={{ flex: 1, paddingHorizontal: 5 }}>
           <BarChart
             style={{ height: 250 }}
             data={data}

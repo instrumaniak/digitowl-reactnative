@@ -24,7 +24,7 @@ const pieData = data2
   .map((value, index) => ({
     value,
     svg: {
-      fill: colors.grey
+      fill: colors.grey1
     },
     key: `pie-${index}`
   }))
@@ -45,7 +45,7 @@ const PieLabels = ({ slices }) => {
           cx={ labelCentroid[0] }
           cy={ labelCentroid[1] }
           r={ 20 }
-          fill={ colors.whiteSmoke }
+          fill={ colors.grey }
         />
         <SText
           x={ labelCentroid[0] - 7 }

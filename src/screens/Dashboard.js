@@ -37,12 +37,16 @@ const Dashboard = () => (
         </Button>
       </Right>
     </Header>
-    <Tabs renderTabBar={()=><ScrollableTab style={{ backgroundColor: themeColors.brand }}/>}>
+    <Tabs tabBarUnderlineStyle={{ backgroundColor: colors.grey }} renderTabBar={()=><ScrollableTab style={{
+      backgroundColor: themeColors.brand,
+      borderBottomColor: themeColors.background
+
+    }}/>}>
       <Tab
-        style={{ backgroundColor: colors.whiteSmoke }}
+        style={{ backgroundColor: themeColors.background }}
         heading='April 2019'
-        tabStyle={{ backgroundColor: themeColors.brand}}
-        activeTabStyle={{ backgroundColor: themeColors.brand}}
+        tabStyle={{ backgroundColor: themeColors.brand }}
+        activeTabStyle={{ backgroundColor: themeColors.brand }}
         textStyle={{ color: colors.whiteSmoke }}
       >
         <Dash />
@@ -55,7 +59,7 @@ const Dashboard = () => (
       />
       <Tab
         heading='June 2019'
-        style={{ backgroundColor: colors.whiteSmoke }}
+        style={{ backgroundColor: themeColors.background }}
         tabStyle={{ backgroundColor: themeColors.brand}}
         activeTabStyle={{ backgroundColor: themeColors.brand}}
         textStyle={{ color: colors.whiteSmoke }}

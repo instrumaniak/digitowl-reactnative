@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row'
   },
   btnLight: {
-    backgroundColor: 'white',
+    backgroundColor: colors.charcoal,
     flex: 1,
     marginHorizontal: 5,
     justifyContent: 'center'

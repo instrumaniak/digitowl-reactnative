@@ -19,7 +19,7 @@ import { colors, themeColors } from '../config'
 import { human } from 'react-native-typography'
 
 const MoreScreen = () => (
-  <Container style={{ backgroundColor: colors.whiteSmoke }}>
+  <Container style={{ backgroundColor: themeColors.background }}>
     <Header hasTabs style={{ paddingLeft: 20, backgroundColor: themeColors.brand }} androidStatusBarColor={themeColors.brandDarken}>
       <Body><Title style={ human.title3White }>More</Title></Body>
       <Right>

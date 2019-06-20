@@ -15,7 +15,7 @@ import { colors, themeColors } from '../config'
 import { human } from 'react-native-typography'
 
 const Activity = () => (
-  <Container style={{ backgroundColor: colors.whiteSmoke }}>
+  <Container style={{ backgroundColor: themeColors.background }}>
     <Header hasTabs style={{ elevation:2, paddingLeft: 20, backgroundColor: themeColors.brand }} androidStatusBarColor={themeColors.brandDarken}>
       <Body><Title style={ human.title3White }>Activity</Title></Body>
     </Header>

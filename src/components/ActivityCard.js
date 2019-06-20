@@ -15,7 +15,7 @@ import {
 } from 'native-base'
 
 import { human } from 'react-native-typography'
-import { colors } from '../config'
+import { colors, themeColors } from '../config'
 
 const ActivityCard = () => (
   <View style={styles.container}>
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
   container: {
     padding: 10,
     marginBottom: 5,
-    backgroundColor: 'white',
+    backgroundColor: themeColors.backgroundLighten,
     elevation: 2,
     borderRadius: 2,
     flexDirection: 'row'

@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
     padding: 5
   },
   oBtnActive: {
-    backgroundColor: 'rgba(0,0,0,0.05)',
+    backgroundColor: 'rgba(0,0,0,0.15)',
     borderRadius: 5
   },
   obtnHeading: {

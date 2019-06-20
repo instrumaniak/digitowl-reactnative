@@ -22,7 +22,7 @@ import { colors, themeColors } from '../config'
 import Timeline from '../components/Timeline'
 
 const TimelineScreen = () => (
-  <Container style={{ backgroundColor: colors.whiteSmoke }}>
+  <Container style={{ backgroundColor: themeColors.background }}>
     <Header hasTabs style={{ paddingLeft: 20, backgroundColor: themeColors.brand }} androidStatusBarColor={themeColors.brandDarken}>
       <Body><Title style={ human.title3White }>Timeline</Title></Body>
       <Right>
@@ -37,9 +37,12 @@ const TimelineScreen = () => (
         </Button>
       </Right>
     </Header>
-    <Tabs renderTabBar={()=><ScrollableTab style={{ backgroundColor: themeColors.brand }}/>}>
+    <Tabs tabBarUnderlineStyle={{ backgroundColor: colors.grey }}  renderTabBar={()=><ScrollableTab style={{
+      backgroundColor: themeColors.brand,
+      borderBottomColor: themeColors.background
+    }}/>}>
       <Tab
-        style={{ backgroundColor: colors.whiteSmoke }}
+        style={{ backgroundColor: themeColors.background }}
         heading='April 2019'
         tabStyle={{ backgroundColor: themeColors.brand}}
         activeTabStyle={{ backgroundColor: themeColors.brand}}
@@ -55,7 +58,7 @@ const TimelineScreen = () => (
       />
       <Tab
         heading='June 2019'
-        style={{ backgroundColor: colors.whiteSmoke }}
+        style={{ backgroundColor: themeColors.background }}
         tabStyle={{ backgroundColor: themeColors.brand}}
         activeTabStyle={{ backgroundColor: themeColors.brand}}
         textStyle={{ color: colors.whiteSmoke }}

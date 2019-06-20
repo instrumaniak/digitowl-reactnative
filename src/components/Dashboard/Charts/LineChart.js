@@ -31,7 +31,12 @@ const Decorator = ({ x, y, data }) => {
 class _LineChart extends PureComponent {
   render() {
     return (
-      <View style={{ flexDirection: 'row'}}>
+      <View style={{
+        flexDirection: 'row',
+        backgroundColor: 'rgba(255,255,255,0.05)',
+        paddingHorizontal: 10,
+        borderRadius: 5
+      }}>
         <YAxis
           data={data}
           style={{ marginBottom: 30, marginRight: 10 }}
@@ -41,7 +46,7 @@ class _LineChart extends PureComponent {
             fill: colors.grey1,
           }}
         />
-        <View style={{ flex: 1}}>
+        <View style={{ flex: 1, paddingHorizontal: 5}}>
           <LineChart
             data={data}
             style={{ height: 250 }}

@@ -5,7 +5,7 @@
 import React, { PureComponent } from 'react'
 import { View, StyleSheet, Picker, TextInput } from 'react-native'
 import { human } from 'react-native-typography'
-import { colors } from '../config'
+import { colors, themeColors } from '../config'
 import {
   Container,
   Content,
@@ -20,7 +20,7 @@ class CreateNew extends PureComponent {
     const { navigation } = this.props
 
     return (
-      <Container>
+      <Container style={{ backgroundColor: themeColors.background }}>
         <Content padder>
         <View style={{
           justifyContent: 'space-between'
@@ -53,7 +53,7 @@ class CreateNew extends PureComponent {
 
             <View style={styles.itemContainer}>
               <Text style={styles.headline}>Select Date</Text>
-              <DatePicker defaultDate={new Date()} />
+              <DatePicker textStyle={{ color: colors.grey1 }} defaultDate={new Date()} />
             </View>
 
             <View style={styles.itemContainer}>
@@ -66,7 +66,7 @@ class CreateNew extends PureComponent {
             <Button block style={{ backgroundColor: colors.blue, marginBottom: 5 }}>
               <Text>Save</Text>
             </Button>
-            <Button onPress={()=> navigation.goBack()} block style={{ backgroundColor: colors.grey1 }}>
+            <Button onPress={()=> navigation.goBack()} block style={{ backgroundColor: colors.red }}>
               <Text>Cancel</Text>
             </Button>
           </View>
@@ -90,7 +90,8 @@ const styles = StyleSheet.create({
   },
   inputBox: {
     borderBottomWidth: 1,
-    borderBottomColor: colors.grey
+    borderBottomColor: colors.grey,
+    color: colors.grey2
   }
 })
 

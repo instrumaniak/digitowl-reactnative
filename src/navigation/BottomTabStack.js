@@ -78,14 +78,14 @@ export const BottomTabStack = createBottomTabNavigator({
   }
 }, {
   tabBarOptions: {
-    activeTintColor: themeColors.brandDarken,
-    //inactiveTintColor: colors.grey1,
-    //activeBackgroundColor: colors.whiteSmoke,
-    inactiveBackgroundColor: colors.whiteSmoke,
+    activeTintColor: colors.white,
+    inactiveTintColor: colors.grey1,
+    //activeBackgroundColor: themeColors.brandDarken,
+    inactiveBackgroundColor: themeColors.brandDarken,
     style: {
-      //backgroundColor: colors.white,
-      borderTopWidth: 1,
-      borderTopColor: '#eee',
+      backgroundColor: themeColors.brand,
+      borderTopWidth: 2,
+      borderTopColor: themeColors.backgroundDarken,
       //paddingTop: 5,
       paddingBottom: 2
     }
