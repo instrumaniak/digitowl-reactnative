@@ -51,6 +51,8 @@ react-native-get-sms-android: Reading SMS on android (planned but not used here 
 
 react-native-svg-charts: Charts
 
+react-native-swiper: Swiper components used for swipable cards/slides.
+
 react-native-typography: For consistent typography
 
 color: For color manipulation to derive colors from a set of colors.
